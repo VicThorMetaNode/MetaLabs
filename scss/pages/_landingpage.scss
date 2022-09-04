@@ -1,0 +1,66 @@
+//-------------- SECTIONS -----------
+.landing-page {
+  min-height: 100vh;
+
+}
+
+.landing-page-header {
+    height: fit-content; 
+   
+    margin-bottom: 6rem;
+}
+
+.landing-page-section-upTitle {
+    margin: 3rem 0 3rem 0 ;
+
+}
+
+.landing-page-section-title {
+    margin-bottom: 2.5rem;
+}
+
+.landing-page-section-subtitle {
+    margin-bottom: 3rem;
+}
+
+
+
+
+//-------------- TITLES SECTION -----------
+.landing-page-upTitle {
+  font-family: var(--ft-text-jura);
+  font-size: var(--font-size-23);
+  color: var(--clr-txt-blk);
+  font-weight: 600;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+  opacity: 0.5;
+
+}
+
+.landing-page-title {
+  font-family: var(--ft-title-space);
+  font-size: var(--font-size-55);
+  color: var(--clr-txt-blk);
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: left;
+  line-height: 0.9 ;
+  
+}
+
+.landing-page-subtitle {
+  font-family: var(--ft-subtitle-istok);
+  
+  color: var(--clr-txt-blk);
+  font-weight: 100;
+  text-transform: lowercase;
+  text-align: left;
+}
+
+.capitalize-text {
+  text-transform: uppercase !important;
+}
+
+

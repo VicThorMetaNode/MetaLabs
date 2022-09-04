@@ -1,0 +1,49 @@
+//-------------- TEXT BOX SECTIONS -----------
+.textBox-main-section {
+  margin-left: auto;
+  height: fit-content;
+}
+
+.textBox-section-upTitle {
+  text-align: right;
+}
+
+.textBox-section-title {
+  text-align: right;  
+}
+
+.textBox-section-text {
+  text-align: right;
+  margin-left: 40%;
+}
+
+
+
+//-------------- TEXT BOX PARTS -----------
+.textBox-upTitle {
+  font-family: var(--ft-text-jura);
+  font-size: var(--font-size-15);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.textBox-title {
+  font-family: var(--ft-title-space);
+  font-size: var(--font-size-30);
+  font-weight: 800;
+}
+
+.textBox-text {
+  font-family: var(--ft-text-jura);
+  font-size: var(--font-size-20);
+  font-weight: 200;
+
+}
+
+.textBox-line {
+  margin-left: auto;
+  margin-right: 0rem;
+  width: 7rem;
+  border-color: var(--clr-txt-blk);
+  border: 1px solid black;
+}

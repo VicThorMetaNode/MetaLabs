@@ -1,0 +1,18 @@
+//-------------- TEXT BOX SECTIONS -----------
+@use '../abstracts/variables' as var;
+
+.bigSingleTitle-section {
+  height: 800px;
+  
+}
+
+
+
+.bigSingleTitle-text {
+  font-family: var(--ft-keyword-unica);
+  font-weight: 400;
+  text-transform: uppercase;
+  text-shadow: var.$text-shadow-grey-soft;
+}
+
+
