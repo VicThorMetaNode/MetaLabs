@@ -1,0 +1,48 @@
+//-------------- TEXT BOX SECTIONS -----------
+.sell-textBox-main-section-left {
+    margin-right: auto;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    height: fit-content;
+  }
+  
+  .sell-textBox-section-upTitle-left {
+    text-align: left;
+  }
+  
+  .sell-textBox-section-title-left {
+    text-align: left; 
+    margin-right: 20%;
+  }
+  
+  .sell-textBox-section-text-left {
+    text-align: left;
+    margin-right: 20%;
+  }
+  
+  .sell-textBox-line-left {
+    margin-left: 0rem;
+    margin-right: auto;
+    width: 7rem;
+    border-color: var(--clr-txt-blk);
+    border: 1px solid black ;
+  }
+
+  //-------------- TEXT BOX PARTS -----------
+.sell-textBox-upTitle {
+    font-family: var(--ft-text-jura);
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  
+ 
+  
+  .sell-textBox-text {
+    font-family: var(--ft-text-jura);
+    font-weight: 200;
+  
+  }
+  
+
+  
+  

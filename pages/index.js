@@ -356,7 +356,7 @@ export default function Home() {
             </Box>
           </Stack>
         </section>
-        <section>
+        <section className="getYours-section">
           <Box>
             <GetYours />
           </Box>

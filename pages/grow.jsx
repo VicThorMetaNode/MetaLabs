@@ -6,7 +6,6 @@ import {
   Flex,
   Stack,
   Text,
-  ButtonGroup,
   UnorderedList,
   ListItem,
   Button,
@@ -15,7 +14,7 @@ import {
 
 //Import IMAGES
 
-import ShopNode from "../dist/img/mockrocket-capture10.png";
+import FanNode from "../dist/img/mockrocket-capture4.png";
 import ArtNode from "../dist/img/mockrocket-capture9.png";
 
 //IMPORT COMPONENTS
@@ -148,12 +147,12 @@ const BulletPoint5 = ({
   </Flex>
 );
 
-const sell = () => {
+const grow = () => {
   return (
     <>
       <section className="sell-page">
         <Box>
-          <BigSingleTitleBlack title="sell" />
+          <BigSingleTitleBlack title="grow" />
         </Box>
         <Box mt={10}>
           <Stack direction="column" justifyContent="center" alignItems="center">
@@ -163,7 +162,7 @@ const sell = () => {
                 textAlign="center"
                 fontSize={["26px", "46px", "56px"]}
               >
-                Get your very own online shop.
+                Get your very own OnlyFans platform.
               </Text>
             </Container>
             <Box>
@@ -173,9 +172,10 @@ const sell = () => {
                 fontSize={["18px", "36px", "46px"]}
                 p={4}
               >
-                Artists and sellers of all kinds, get your own{" "}
-                <span className="text-bold-600">customer-based</span> online
-                shop to sell your artwork, your products & more now.
+                Artists and content creators deploy your own{" "}
+                <span className="text-bold-600">fan-based</span> platform and
+                get financial support every month{" "}
+                <span className="text-bold-600">now</span>.
               </Text>
             </Box>
           </Stack>
@@ -191,7 +191,7 @@ const sell = () => {
                 width="600px"
                 height="700px"
                 objectFit="cover"
-                src={ShopNode}
+                src={FanNode}
                 alt="service e-commerce"
               />
             </Stack>
@@ -201,14 +201,14 @@ const sell = () => {
           <Stack direction="column" justifyContent="center" alignItems="center">
             <Box>
               <TextBoxLeft
-                upTitle="full control"
-                text="Get full ownership of the source code, protect your private data and those of your customers having full access to the database. Create your own rules, manage everything like never before."
+                upTitle="membership"
+                text="Give access to customized and special contents to your fans and supporters. Take full control of membership price and your users base. The new way of financing your projects. "
               />
             </Box>
             <Box>
               <TextBoxRight
-                upTitle="payout options"
-                text="Make sales in any currency efficiently and safely using the Paypal platform. Decentralized yourself opening your web-store on the blockchain and get paid in cryptos using the most advanced and most secured Metamask Wallet.  "
+                upTitle="cryptos payout"
+                text="Get paid in crypto. Let your fans choose in which crypto they want to pay. Fully anonymous & secure, using the most advanced payment platform available: MetaMask. No subscription charge !"
               />
             </Box>
             <Box>
@@ -221,7 +221,7 @@ const sell = () => {
           </Stack>
         </section>
         <Box>
-          <BigSingleTitleBlack title="fight" />
+          <BigSingleTitleBlack title="esc" />
         </Box>
         <section className="fight-section">
           <Box mt={10}>
@@ -236,7 +236,7 @@ const sell = () => {
                   textAlign="center"
                   fontSize={["26px", "46px", "56px"]}
                 >
-                  Fight the <span className="text-overwrite">centralized</span>{" "}
+                  Escape the <span className="text-overwrite">centralized</span>{" "}
                   system.
                 </Text>
               </Container>
@@ -247,11 +247,9 @@ const sell = () => {
                   fontSize={["18px", "36px", "46px"]}
                   p={4}
                 >
-                  Say goodbye to monthly fees to host your website on Wix or
-                  Shopify. Stop paying them{" "}
-                  <span className="text-bold-600">sales fees</span> and
-                  pretending not knowing that those companies sell your clients
-                  data and yours.
+                  Say goodbye to subscription fees when sharing your content to
+                  your fans. Stop giving away 20% of your sales to OnlyFans and
+                  pretending not knowing that they own your content forever.
                   <br />{" "}
                   <span className="text-bold-600">Take the power back !</span>
                 </Text>
@@ -280,15 +278,8 @@ const sell = () => {
           <Stack direction="column" justifyContent="center" alignItems="center">
             <Box>
               <TextBoxRight
-                upTitle="no extra fees"
-                text="Pay only for the features you need. Wix & Shopify make up to 20% on your sales. Stop paying for upgrades or updates. 
-                Free yourself. Get your own online commerce. "
-              />
-            </Box>
-            <Box>
-              <TextBoxLeft
-                upTitle="no censorship"
-                text="Deploy your online commerce on the blockchain and never be banned or censored ever again ! Own the source code of your website so you can make any upgrades or updates with no restriction. "
+                upTitle="no restriction"
+                text="Deploy your only fans platform on the blockchain and get the full control to your content back. Set the rules, set the price, manage the subscriptions & more under no restrictions. "
               />
             </Box>
           </Stack>
@@ -308,16 +299,16 @@ const sell = () => {
                 p={4}
               >
                 {" "}
-                <span className="text-bold-600">Wix & Shopify</span>
+                <span className="text-bold-600">OnlyFans</span>
               </Text>
             </Box>
             <Box pl={2}>
               <BulletPoint5
-                bullet1="Up to 900€/year just for using their platform"
-                bullet2="Up to 20% of charge on sales"
-                bullet3="They have ownership of your website"
-                bullet4="They can shut it down overnight or ban you from their platform for any reason"
-                bullet5="They can make what they want with your data and those of your customers"
+                bullet1="20% of charge on subscription"
+                bullet2="You can’t charge less than $4.99 or more than $49.99"
+                bullet3="They have ownership of your content forever"
+                bullet4="OnlyFans can shut your account down  overnight or ban you from their platform for any reason"
+                bullet5="They don’t protect the data of your subscribers"
               />
             </Box>
             <Box className="landing-page-section-btn" px={4}>
@@ -337,4 +328,4 @@ const sell = () => {
   );
 };
 
-export default sell;
+export default grow;

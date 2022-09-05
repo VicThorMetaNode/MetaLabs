@@ -45,4 +45,30 @@
   --border-r2: 2rem;
   --border-r3: 3rem;
   --border-r4: 4rem;
+
+ 
+  
 }
+
+
+
+  /*BOLDNESS*/
+
+.text-bold-400 {
+  font-weight: 400;
+}
+
+.text-bold-600 {
+  font-weight: 600;
+}
+
+.text-bold-800 {
+  font-weight: 800;
+}
+
+  /*OVERWRITE*/
+  .text-overwrite {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #fffdfd;
+  }

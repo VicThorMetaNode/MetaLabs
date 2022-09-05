@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import {
   Spacer,
   Box,
@@ -27,12 +28,14 @@ const Navbar = () => {
       <div className="navbar">
         <Flex mt={3}>
           <Box ml={3}>
-            <Text
-              fontSize={["2xl", "4xl", "5xl"]}
-              className="landing-page-navbar-logo"
-            >
-              MetaNode
-            </Text>
+            <a href="/">
+              <Text
+                fontSize={["2xl", "4xl", "5xl"]}
+                className="landing-page-navbar-logo"
+              >
+                MetaNode
+              </Text>
+            </a>
           </Box>
 
           <Spacer />
@@ -57,7 +60,7 @@ const Navbar = () => {
                   justifyContent="right"
                   alignItems="right"
                 >
-                  about
+                  <Link href="/"> about</Link>
                 </MenuItem>
                 <MenuItem
                   className="menu-item"
@@ -65,7 +68,7 @@ const Navbar = () => {
                   justifyContent="right"
                   alignItems="right"
                 >
-                  sell
+                  <Link href="/sell"> sell</Link>
                 </MenuItem>
                 <MenuItem
                   className="menu-item"
@@ -73,7 +76,7 @@ const Navbar = () => {
                   justifyContent="right"
                   alignItems="right"
                 >
-                  grow
+                  <Link href="/grow"> grow</Link>
                 </MenuItem>
                 <MenuItem
                   className="menu-item"
@@ -81,7 +84,7 @@ const Navbar = () => {
                   justifyContent="right"
                   alignItems="right"
                 >
-                  pricing
+                  <Link href="/pricing"> pricing</Link>
                 </MenuItem>
                 <MenuItem
                   className="menu-item"
@@ -89,7 +92,7 @@ const Navbar = () => {
                   justifyContent="right"
                   alignItems="right"
                 >
-                  contact
+                  <Link href="/contact"> contact</Link>
                 </MenuItem>
                 <MenuItem
                   className="menu-item"
@@ -97,7 +100,7 @@ const Navbar = () => {
                   justifyContent="right"
                   alignItems="right"
                 >
-                  q&a
+                  <Link href="/q&a"> q&a</Link>
                 </MenuItem>
                 <MenuDivider />
                 <HStack justifyContent="right" alignItems="right" mr={3}>
