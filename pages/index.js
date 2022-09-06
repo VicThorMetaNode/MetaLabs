@@ -222,12 +222,12 @@ export default function Home() {
   return (
     <>
       <section className="landing-page">
-        <Box className="landing-page-header" ml={3}>
+        <Box className="landing-page-header" ml={3} >
           <Box
             className="landing-page-section-upTitle"
             px={[2, 6, 8]}
             mb={[10, 20, 20]}
-            mt={[10, 20, 20]}
+            mt={[20, 20, 20]}
           >
             <Text
               className="landing-page-upTitle"
