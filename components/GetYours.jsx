@@ -7,7 +7,7 @@ const getYours = () => {
       <Box className="getYours-section" py={10}>
         <Stack justifyContent="center" alignItems="center" direction="column">
           <Box m={2}>
-            <Text className="getYours-text" fontSize={["18px", "36px", "46px"]}>
+            <Text className="getYours-text" fontSize={["20px", "36px", "46px"]}>
               get yours today
             </Text>
           </Box>

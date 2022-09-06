@@ -9,6 +9,7 @@ import {
   UnorderedList,
   ListItem,
   Button,
+  Container,
 } from "@chakra-ui/react";
 
 //Import IMAGES
@@ -22,18 +23,26 @@ import GetYours from "../components/GetYours";
 
 //INTERNAL COMPONENTS
 const TextBoxRight = ({ upTitle, title, text }) => (
-  <Box className="textBox-main-section" mr={[2, 4, 6]}>
+  <Box className="textBox-main-section" mr={6}>
     <Stack direction="row">
       <Box>
         <Box className="textBox-section-upTitle" mb={2}>
-          <Text className="textBox-upTitle"> {upTitle} </Text>
+          <Text className="textBox-upTitle" fontSize={["16px", "28px", "42px"]}>
+            {" "}
+            {upTitle}{" "}
+          </Text>
         </Box>
         <hr className="textBox-line" />
         <Box className="textBox-section-title" mt={2}>
-          <Text className="textBox-title">{title}</Text>
+          <Text className="textBox-title" fontSize={["15px", "29px", "37px"]}>
+            {title}
+          </Text>
         </Box>
         <Box className="textBox-section-text" p={[1, 4, 6]}>
-          <Text className="textBox-text"> {text} </Text>
+          <Text className="textBox-text" fontSize={["13px", "26px", "32px"]}>
+            {" "}
+            {text}{" "}
+          </Text>
         </Box>
       </Box>
     </Stack>
@@ -52,18 +61,26 @@ const TextBoxRight = ({ upTitle, title, text }) => (
 );
 
 const TextBoxLeft = ({ upTitle, title, text }) => (
-  <Box className="textBox-main-section-left" ml={[3, 4, 6]}>
+  <Box className="textBox-main-section-left" ml={6}>
     <Stack direction="row">
       <Box>
         <Box className="textBox-section-upTitle-left" mb={2}>
-          <Text className="textBox-upTitle"> {upTitle} </Text>
+          <Text className="textBox-upTitle" fontSize={["16px", "28px", "42px"]}>
+            {" "}
+            {upTitle}{" "}
+          </Text>
         </Box>
         <hr className="textBox-line-left" />
         <Box className="textBox-section-title-left" mt={2}>
-          <Text className="textBox-title">{title}</Text>
+          <Text className="textBox-title" fontSize={["15px", "29px", "37px"]}>
+            {title}
+          </Text>
         </Box>
         <Box className="textBox-section-text-left" p={[1, 4, 6]}>
-          <Text className="textBox-text"> {text} </Text>
+          <Text className="textBox-text" fontSize={["13px", "26px", "32px"]}>
+            {" "}
+            {text}{" "}
+          </Text>
         </Box>
       </Box>
     </Stack>
@@ -101,46 +118,48 @@ const BulletPoint5 = ({
   bullet3,
   bullet4,
   bullet5,
-  bullet6,
+  
 }) => (
-  <Flex justifyContent="center" alignItems="center">
-    <UnorderedList mb={6} p={4}>
-      <ListItem
-        className="bulletPoint-item"
-        fontSize={["18px", "36px", "46px"]}
-      >
-        {" "}
-        {bullet1}{" "}
-      </ListItem>
-      <ListItem
-        className="bulletPoint-item"
-        fontSize={["18px", "36px", "46px"]}
-      >
-        {bullet2}
-      </ListItem>
-      <ListItem
-        className="bulletPoint-item"
-        fontSize={["18px", "36px", "46px"]}
-      >
-        {" "}
-        {bullet3}{" "}
-      </ListItem>
-      <ListItem
-        className="bulletPoint-item"
-        fontSize={["18px", "36px", "46px"]}
-      >
-        {" "}
-        {bullet4}{" "}
-      </ListItem>
-      <ListItem
-        className="bulletPoint-item"
-        fontSize={["18px", "36px", "46px"]}
-      >
-        {" "}
-        {bullet5}{" "}
-      </ListItem>
-    </UnorderedList>
-  </Flex>
+  <Container>
+    <Flex justifyContent="center" alignItems="center">
+      <UnorderedList mb={6} p={4}>
+        <ListItem
+          className="bulletPoint-item"
+          fontSize={["18px", "36px", "46px"]}
+        >
+          {" "}
+          {bullet1}{" "}
+        </ListItem>
+        <ListItem
+          className="bulletPoint-item"
+          fontSize={["18px", "36px", "46px"]}
+        >
+          {bullet2}
+        </ListItem>
+        <ListItem
+          className="bulletPoint-item"
+          fontSize={["18px", "36px", "46px"]}
+        >
+          {" "}
+          {bullet3}{" "}
+        </ListItem>
+        <ListItem
+          className="bulletPoint-item"
+          fontSize={["18px", "36px", "46px"]}
+        >
+          {" "}
+          {bullet4}{" "}
+        </ListItem>
+        <ListItem
+          className="bulletPoint-item"
+          fontSize={["18px", "36px", "46px"]}
+        >
+          {" "}
+          {bullet5}{" "}
+        </ListItem>
+      </UnorderedList>
+    </Flex>
+  </Container>
 );
 
 const BulletPoint6 = ({
@@ -204,13 +223,28 @@ export default function Home() {
     <>
       <section className="landing-page">
         <Box className="landing-page-header" ml={3}>
-          <Box className="landing-page-section-upTitle" px={4}>
-            <Text className="landing-page-upTitle">Decentralize Yourself</Text>
+          <Box
+            className="landing-page-section-upTitle"
+            px={[2, 6, 8]}
+            mb={[10, 20, 20]}
+            mt={[10, 20, 20]}
+          >
+            <Text
+              className="landing-page-upTitle"
+              fontSize={["23px", "28px", "34px"]}
+            >
+              Decentralize Yourself
+            </Text>
           </Box>
           <Box>
             <Flex>
-              <Box className="landing-page-section-title" px={[4]}>
-                <Text className="landing-page-title">your own online shop</Text>
+              <Box className="landing-page-section-title" px={[2, 6, 8]}>
+                <Text
+                  className="landing-page-title"
+                  fontSize={["55px", "70px", "82px"]}
+                >
+                  your own online shop
+                </Text>
               </Box>
               {/* <Box backgroundColor="red">
                 <Image
@@ -221,10 +255,10 @@ export default function Home() {
                 />
               </Box> */}
             </Flex>
-            <Box className="landing-page-section-subtitle" px={4}>
+            <Box className="landing-page-section-subtitle" px={[2, 6, 8]}>
               <Text
                 className="landing-page-subtitle"
-                fontSize={["xl", "2xl", "auto"]}
+                fontSize={["17px", "23px", "30px"]}
               >
                 mobile-first features for sellers & community builders
               </Text>
@@ -315,7 +349,7 @@ export default function Home() {
                 bullet1="full ownership"
                 bullet2="full control"
                 bullet3="donations in cryptos"
-                bullet4="no charges memberships"
+                bullet4="no charges on sales"
                 bullet5="latest security protocols"
               />
             </Box>

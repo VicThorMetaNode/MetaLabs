@@ -9,6 +9,7 @@
 }
 
 .textBox-section-title {
+  margin-left: 20%;
   text-align: right;  
 }
 
@@ -22,20 +23,17 @@
 //-------------- TEXT BOX PARTS -----------
 .textBox-upTitle {
   font-family: var(--ft-text-jura);
-  font-size: var(--font-size-15);
   font-weight: 400;
   text-transform: uppercase;
 }
 
 .textBox-title {
   font-family: var(--ft-title-space);
-  font-size: var(--font-size-30);
   font-weight: 800;
 }
 
 .textBox-text {
   font-family: var(--ft-text-jura);
-  font-size: var(--font-size-20);
   font-weight: 200;
 
 }

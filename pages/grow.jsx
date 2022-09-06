@@ -27,7 +27,7 @@ const BigSingleTitleBlack = ({ title }) => (
       <Flex justifyContent="center" alignItems="center" mt={1}>
         <Text
           className="bigSingleTitleBlack-text"
-          mt={40}
+          mt={80}
           fontSize={["120px", "170px", "197px"]}
         >
           {title}
@@ -37,40 +37,9 @@ const BigSingleTitleBlack = ({ title }) => (
   </>
 );
 
-const TextBoxLeft = ({ upTitle, text }) => (
-  <>
-    <Box className="sell-textBox-main-section-left" ml={[3, 4, 6]}>
-      <Stack direction="row">
-        <Box>
-          <Box className="sell-textBox-section-upTitle-left" mb={2}>
-            <Text
-              className="sell-textBox-upTitle"
-              fontSize={["16px", "28px", "42px"]}
-            >
-              {" "}
-              {upTitle}{" "}
-            </Text>
-          </Box>
-          <hr className="sell-textBox-line-left" />
-
-          <Box className="sell-textBox-section-text-left" mt={4} p={[0, 4, 6]}>
-            <Text
-              className="sell-textBox-text"
-              fontSize={["13px", "26px", "32px"]}
-            >
-              {" "}
-              {text}{" "}
-            </Text>
-          </Box>
-        </Box>
-      </Stack>
-    </Box>
-  </>
-);
-
 const TextBoxRight = ({ upTitle, text }) => (
   <>
-    <Box className="sell-textBox-main-section-right" mr={[3, 4, 6]}>
+    <Box className="sell-textBox-main-section-right" mr={6}>
       <Stack direction="row">
         <Box>
           <Box className="sell-textBox-section-upTitle-right" mb={2}>
@@ -84,7 +53,7 @@ const TextBoxRight = ({ upTitle, text }) => (
           </Box>
           <hr className="sell-textBox-line-right" />
 
-          <Box className="sell-textBox-section-text-right" p={[0, 4, 6]} mt={4}>
+          <Box className="sell-textBox-section-text-right" p={[1, 4, 6]} mt={4}>
             <Text
               className="sell-textBox-text-right"
               fontSize={["13px", "26px", "32px"]}
@@ -99,52 +68,78 @@ const TextBoxRight = ({ upTitle, text }) => (
   </>
 );
 
-const BulletPoint5 = ({
-  bullet1,
-  bullet2,
-  bullet3,
-  bullet4,
-  bullet5,
-  bullet6,
-}) => (
-  <Flex justifyContent="center" alignItems="center">
-    <UnorderedList mb={6} p={4}>
-      <ListItem
-        className="bulletPoint-item"
-        fontSize={["18px", "36px", "46px"]}
-      >
-        {" "}
-        {bullet1}{" "}
-      </ListItem>
-      <ListItem
-        className="bulletPoint-item"
-        fontSize={["18px", "36px", "46px"]}
-      >
-        {bullet2}
-      </ListItem>
-      <ListItem
-        className="bulletPoint-item"
-        fontSize={["18px", "36px", "46px"]}
-      >
-        {" "}
-        {bullet3}{" "}
-      </ListItem>
-      <ListItem
-        className="bulletPoint-item"
-        fontSize={["18px", "36px", "46px"]}
-      >
-        {" "}
-        {bullet4}{" "}
-      </ListItem>
-      <ListItem
-        className="bulletPoint-item"
-        fontSize={["18px", "36px", "46px"]}
-      >
-        {" "}
-        {bullet5}{" "}
-      </ListItem>
-    </UnorderedList>
-  </Flex>
+const TextBoxLeft = ({ upTitle, text }) => (
+  <>
+    <Box className="sell-textBox-main-section-left" ml={6}>
+      <Stack direction="row">
+        <Box>
+          <Box className="sell-textBox-section-upTitle-left" mb={2}>
+            <Text
+              className="sell-textBox-upTitle"
+              fontSize={["16px", "28px", "42px"]}
+            >
+              {" "}
+              {upTitle}{" "}
+            </Text>
+          </Box>
+          <hr className="sell-textBox-line-left" />
+
+          <Box className="sell-textBox-section-text-left" mt={4} p={[1, 4, 6]}>
+            <Text
+              className="sell-textBox-text"
+              fontSize={["13px", "26px", "32px"]}
+            >
+              {" "}
+              {text}{" "}
+            </Text>
+          </Box>
+        </Box>
+      </Stack>
+    </Box>
+  </>
+);
+
+const BulletPoint5 = ({ bullet1, bullet2, bullet3, bullet4, bullet5 }) => (
+  <Container>
+    <Flex justifyContent="center" alignItems="center">
+      <UnorderedList mb={6} p={4}>
+        <ListItem
+          className="bulletPoint-item"
+          fontSize={["18px", "36px", "46px"]}
+        >
+          {" "}
+          {bullet1}{" "}
+        </ListItem>
+        <ListItem
+          className="bulletPoint-item"
+          fontSize={["18px", "36px", "46px"]}
+        >
+          {bullet2}
+        </ListItem>
+        <ListItem
+          className="bulletPoint-item"
+          fontSize={["18px", "36px", "46px"]}
+        >
+          {" "}
+          {bullet3}{" "}
+        </ListItem>
+        <ListItem
+          className="bulletPoint-item"
+          fontSize={["18px", "36px", "46px"]}
+        >
+          {" "}
+          {bullet4}{" "}
+        </ListItem>
+        <ListItem
+          className="bulletPoint-item"
+          fontSize={["18px", "36px", "46px"]}
+        >
+          {" "}
+          {bullet5}{" "}
+        </ListItem>
+      </UnorderedList>
+    </Flex>
+  </Container>
 );
 
 const grow = () => {
@@ -161,6 +156,7 @@ const grow = () => {
                 className="sell-page-title"
                 textAlign="center"
                 fontSize={["26px", "46px", "56px"]}
+                px={[6, 10, 10]}
               >
                 Get your very own OnlyFans platform.
               </Text>
@@ -170,7 +166,8 @@ const grow = () => {
                 className="sell-page-subText"
                 textAlign="center"
                 fontSize={["18px", "36px", "46px"]}
-                p={4}
+                px={[6, 10, 10]}
+                mt={4}
               >
                 Artists and content creators deploy your own{" "}
                 <span className="text-bold-600">fan-based</span> platform and
@@ -230,22 +227,24 @@ const grow = () => {
               justifyContent="center"
               alignItems="center"
             >
-              <Container>
+              <Box>
                 <Text
                   className="sell-page-title"
                   textAlign="center"
                   fontSize={["26px", "46px", "56px"]}
+                  px={[6, 10, 10]}
                 >
                   Escape the <span className="text-overwrite">centralized</span>{" "}
                   system.
                 </Text>
-              </Container>
+              </Box>
               <Box>
                 <Text
                   className="sell-page-subText"
                   textAlign="center"
-                  fontSize={["18px", "36px", "46px"]}
-                  p={4}
+                  fontSize={["20px", "36px", "46px"]}
+                  px={[6, 10, 10]}
+                  mt={4}
                 >
                   Say goodbye to subscription fees when sharing your content to
                   your fans. Stop giving away 20% of your sales to OnlyFans and
@@ -258,7 +257,7 @@ const grow = () => {
           </Box>
         </section>
         <section className="sell-page-img-section">
-          <Box>
+          <Box my={10}>
             <Stack
               direction="column"
               justifyContent="center"

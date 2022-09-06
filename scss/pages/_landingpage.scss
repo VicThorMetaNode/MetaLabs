@@ -6,14 +6,10 @@
 
 .landing-page-header {
     height: fit-content; 
-   
-    margin-bottom: 6rem;
+    margin-bottom: 10rem;
 }
 
-.landing-page-section-upTitle {
-    margin: 3rem 0 3rem 0 ;
 
-}
 
 .landing-page-section-title {
     margin-bottom: 2.5rem;
@@ -29,7 +25,6 @@
 //-------------- TITLES SECTION -----------
 .landing-page-upTitle {
   font-family: var(--ft-text-jura);
-  font-size: var(--font-size-23);
   color: var(--clr-txt-blk);
   font-weight: 600;
   text-align: left;
@@ -41,7 +36,6 @@
 
 .landing-page-title {
   font-family: var(--ft-title-space);
-  font-size: var(--font-size-55);
   color: var(--clr-txt-blk);
   font-weight: 600;
   text-transform: capitalize;
@@ -52,7 +46,6 @@
 
 .landing-page-subtitle {
   font-family: var(--ft-subtitle-istok);
-  
   color: var(--clr-txt-blk);
   font-weight: 100;
   text-transform: lowercase;
