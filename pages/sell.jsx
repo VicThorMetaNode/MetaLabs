@@ -169,9 +169,10 @@ const sell = () => {
                 px={[6, 10, 10]}
                 mt={4}
               >
-                Artists and sellers of all kinds, get your own{" "}
+                Artists and insurgents of all kinds, get your own{" "}
                 <span className="text-bold-600">customer-based</span> online
-                shop to sell your artwork, your products & more now.
+                shop to sell your artwork, your products
+                <br />& more.
               </Text>
             </Box>
           </Stack>
@@ -198,13 +199,13 @@ const sell = () => {
             <Box>
               <TextBoxLeft
                 upTitle="full control"
-                text="Get full ownership of the source code, protect your private data and those of your customers having full access to the database. Create your own rules, manage everything like never before."
+                text="Get full ownership of your website's source code. Protect your data and those of your customers. Create your own rules & manage everything like never before."
               />
             </Box>
             <Box>
               <TextBoxRight
                 upTitle="payout options"
-                text="Make sales in any currency efficiently and safely using the Paypal platform. Decentralized yourself opening your web-store on the blockchain and get paid in cryptos using the most advanced and most secured Metamask Wallet.  "
+                text="Make sales in any currency efficiently and safely using the Paypal platform. Decentralize yourself opening your web-store on the blockchain and get paid in cryptos using the most advanced and most secured Metamask Wallet.  "
               />
             </Box>
             <Box>
@@ -279,14 +280,14 @@ const sell = () => {
             <Box>
               <TextBoxRight
                 upTitle="no extra fees"
-                text="Pay only for the features you need. Wix & Shopify make up to 20% on your sales. Stop paying for upgrades or updates. 
+                text="Wix & Shopify make up to 20% on your sales and can influence algorithm of their platforms to force you to pay for upgrades.
                 Free yourself. Get your own online commerce. "
               />
             </Box>
             <Box>
               <TextBoxLeft
                 upTitle="no censorship"
-                text="Deploy your online commerce on the blockchain and never be banned or censored ever again ! Own the source code of your website so you can make any upgrades or updates with no restriction. "
+                text="Deploy your web-shop on the blockchain and never be banned or censored ever again ! Own the source code of your website so you can make any upgrades or updates with no restriction. "
               />
             </Box>
           </Stack>

@@ -151,7 +151,7 @@ const grow = () => {
         </Box>
         <Box mt={10}>
           <Stack direction="column" justifyContent="center" alignItems="center">
-            <Container>
+            <Box>
               <Text
                 className="sell-page-title"
                 textAlign="center"
@@ -160,7 +160,7 @@ const grow = () => {
               >
                 Get your very own OnlyFans platform.
               </Text>
-            </Container>
+            </Box>
             <Box>
               <Text
                 className="sell-page-subText"
@@ -169,10 +169,9 @@ const grow = () => {
                 px={[6, 10, 10]}
                 mt={4}
               >
-                Artists and content creators deploy your own{" "}
+                Agitators and content creators, deploy your own{" "}
                 <span className="text-bold-600">fan-based</span> platform and
-                get financial support every month{" "}
-                <span className="text-bold-600">now</span>.
+                get financial support every month .
               </Text>
             </Box>
           </Stack>
@@ -199,13 +198,13 @@ const grow = () => {
             <Box>
               <TextBoxLeft
                 upTitle="membership"
-                text="Give access to customized and special contents to your fans and supporters. Take full control of membership price and your users base. The new way of financing your projects. "
+                text="Give access to customized and extra contents to your fans and supporters. Take full control of membership price and your users base. The new way of financing all your projects. "
               />
             </Box>
             <Box>
               <TextBoxRight
                 upTitle="cryptos payout"
-                text="Get paid in crypto. Let your fans choose in which crypto they want to pay. Fully anonymous & secure, using the most advanced payment platform available: MetaMask. No subscription charge !"
+                text="Get paid in crypto. Let your fans choose in which crypto they want to pay you. Fully anonymous & secure, using the most advanced payment platform available: MetaMask."
               />
             </Box>
             <Box>
@@ -250,7 +249,7 @@ const grow = () => {
                   your fans. Stop giving away 20% of your sales to OnlyFans and
                   pretending not knowing that they own your content forever.
                   <br />{" "}
-                  <span className="text-bold-600">Take the power back !</span>
+                  <span className="text-bold-600">Get your freedom back !</span>
                 </Text>
               </Box>
             </Stack>
@@ -278,7 +277,8 @@ const grow = () => {
             <Box>
               <TextBoxRight
                 upTitle="no restriction"
-                text="Deploy your only fans platform on the blockchain and get the full control to your content back. Set the rules, set the price, manage the subscriptions & more under no restrictions. "
+                text="Deploy your OnlyFans platform on the blockchain and get the full control to your content back. 
+                Set the rules, set the price, manage the subscriptions & more, under no restrictions. "
               />
             </Box>
           </Stack>

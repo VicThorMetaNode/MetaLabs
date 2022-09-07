@@ -33,7 +33,7 @@ const Navbar = () => {
                 fontSize={["2xl", "4xl", "5xl"]}
                 className="landing-page-navbar-logo"
               >
-                MetaNode
+                MetaNodes
               </Text>
             </a>
           </Box>

@@ -233,7 +233,7 @@ export default function Home() {
               className="landing-page-upTitle"
               fontSize={["23px", "28px", "34px"]}
             >
-              Decentralize Yourself
+              decentralize yourself
             </Text>
           </Box>
           <Box>
@@ -243,7 +243,7 @@ export default function Home() {
                   className="landing-page-title"
                   fontSize={["55px", "70px", "82px"]}
                 >
-                  your own online shop
+                Online-Shops for typical agitators
                 </Text>
               </Box>
               {/* <Box backgroundColor="red">
@@ -260,7 +260,7 @@ export default function Home() {
                 className="landing-page-subtitle"
                 fontSize={["17px", "23px", "30px"]}
               >
-                mobile-first features for sellers & community builders
+                mobile-first features for rebel creators & unorthodox community builders
               </Text>
             </Box>
             <Box className="landing-page-section-btn" px={4}>
@@ -277,8 +277,8 @@ export default function Home() {
             <Box>
               <TextBoxRight
                 upTitle="ONLINE SHOP"
-                title="Get full ownership of your online commerce."
-                text="Get full ownership of the source code. Make sales using Paypal and Metamask to get paid in cryptos. Keep your customers data protected.
+                title="Get full ownership of your e-commerce."
+                text="Full access of the source code. Make sales using Paypal and Metamask to get paid in cryptos. Keep your customers data protected.
           & more."
               />
             </Box>
