@@ -243,7 +243,7 @@ export default function Home() {
                   className="landing-page-title"
                   fontSize={["55px", "70px", "82px"]}
                 >
-                Online-Shops for typical agitators
+                Web-Services for typical agitators
                 </Text>
               </Box>
               {/* <Box backgroundColor="red">

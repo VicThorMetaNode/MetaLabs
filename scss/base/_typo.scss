@@ -72,3 +72,22 @@
     text-decoration-thickness: 2px;
     text-decoration-color: #fffdfd;
   }
+
+
+  /*OVERSTRESSED*/
+  .stressed-white {
+    text-decoration: overline;
+    color: var(--clr-txt-wht);
+}
+
+.stressed-black {
+    text-decoration: overline;
+    color: black;
+}
+
+
+/*HR WHITE*/
+
+.hr-white{
+  color: white !important;
+}
