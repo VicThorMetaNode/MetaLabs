@@ -1,0 +1,17 @@
+.success-message-border {
+    border: 0.5px solid var(  --clr-border-form);
+    max-width: 70rem;
+}
+
+//-------------- TEXT PARTS -----------
+
+.form-label{
+font-family: var(--ft-keyword-unica) ;
+font-size: var( --font-size-24) !important;
+margin-top: 2rem;
+}
+
+.form-input{
+    font-family: var(--ft-text-jura) ;
+    font-weight: 100 !important;
+}
