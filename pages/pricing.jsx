@@ -274,8 +274,8 @@ const pricing = () => {
               alignItems="center"
             >
               <Image
-                width="600px"
-                height="700px"
+                width="420px"
+                height="560px"
                 objectFit="cover"
                 src={BuildNodes}
                 alt="service e-commerce"

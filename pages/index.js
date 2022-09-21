@@ -345,8 +345,8 @@ export default function Home() {
           <Stack direction="column" justifyContent="center" alignItems="center">
             <Box className="img-shopNode">
               <Image
-                width="600px"
-                height="700px"
+                width="420px"
+                height="560px"
                 objectFit="cover"
                 src={ShopNode}
                 alt="service e-commerce"
@@ -377,8 +377,8 @@ export default function Home() {
           <Stack direction="column" justifyContent="center" alignItems="center">
             <Box className="img-shopNode">
               <Image
-                width="600px"
-                height="780px"
+                width="420px"
+                height="560px"
                 objectFit="cover"
                 src={FanNode}
                 alt="service e-commerce"
@@ -409,8 +409,8 @@ export default function Home() {
           <Stack direction="column" justifyContent="center" alignItems="center">
             <Box className="img-shopNode">
               <Image
-                width="600px"
-                height="700px"
+                width="420px"
+                height="560px"
                 objectFit="cover"
                 src={MarketingNode}
                 alt="service e-commerce"

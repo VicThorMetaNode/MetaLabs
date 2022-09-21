@@ -186,8 +186,8 @@ const sell = () => {
               alignItems="center"
             >
               <Image
-                width="600px"
-                height="700px"
+                width="420px"
+                height="560px"
                 objectFit="cover"
                 src={ShopNode}
                 alt="service e-commerce"
@@ -267,8 +267,8 @@ const sell = () => {
               alignItems="center"
             >
               <Image
-                width="600px"
-                height="700px"
+                width="420px"
+                height="560px"
                 objectFit="cover"
                 src={ArtNode}
                 alt="service e-commerce"

@@ -177,15 +177,15 @@ const grow = () => {
           </Stack>
         </Box>
         <section className="sell-page-img-section">
-          <Box>
+          <Box mt={10}>
             <Stack
               direction="column"
               justifyContent="center"
               alignItems="center"
             >
               <Image
-                width="600px"
-                height="700px"
+                width="420px"
+                height="560px"
                 objectFit="cover"
                 src={FanNode}
                 alt="service e-commerce"
@@ -263,8 +263,8 @@ const grow = () => {
               alignItems="center"
             >
               <Image
-                width="600px"
-                height="700px"
+                width="420px"
+                height="560px"
                 objectFit="cover"
                 src={ArtNode}
                 alt="service e-commerce"
