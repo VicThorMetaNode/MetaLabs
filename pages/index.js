@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 // Import CHAKRA tools
 import {
   Box,
@@ -46,17 +47,6 @@ const TextBoxRight = ({ upTitle, title, text }) => (
         </Box>
       </Box>
     </Stack>
-
-    <Stack direction="row" justifyContent="right" alignItems="right" mt={4}>
-      <ButtonGroup gap={[2, 4]}>
-        <Button className="btn-visuals" size={["xs", "sm", "xl"]}>
-          Visuals
-        </Button>
-        <Button className="btn-readMore" size={["xs", "sm", "xl"]}>
-          Read More
-        </Button>
-      </ButtonGroup>
-    </Stack>
   </Box>
 );
 
@@ -84,17 +74,6 @@ const TextBoxLeft = ({ upTitle, title, text }) => (
         </Box>
       </Box>
     </Stack>
-
-    <Stack direction="row" justifyContent="left" alignItems="left" mt={4}>
-      <ButtonGroup gap={[4, 2]}>
-        <Button className="btn-readMore" size={["xs", "sm", "xl"]}>
-          Read More
-        </Button>
-        <Button className="btn-visuals" size={["xs", "sm", "xl"]}>
-          Visuals
-        </Button>
-      </ButtonGroup>
-    </Stack>
   </Box>
 );
 
@@ -112,14 +91,7 @@ const BigSingleTitleWhite = ({ title }) => (
   </Box>
 );
 
-const BulletPoint5 = ({
-  bullet1,
-  bullet2,
-  bullet3,
-  bullet4,
-  bullet5,
-  
-}) => (
+const BulletPoint5 = ({ bullet1, bullet2, bullet3, bullet4, bullet5 }) => (
   <Container>
     <Flex justifyContent="center" alignItems="center">
       <UnorderedList mb={6} p={4}>
@@ -222,7 +194,7 @@ export default function Home() {
   return (
     <>
       <section className="landing-page">
-        <Box className="landing-page-header" ml={3} >
+        <Box className="landing-page-header" ml={3}>
           <Box
             className="landing-page-section-upTitle"
             px={[2, 6, 8]}
@@ -243,7 +215,7 @@ export default function Home() {
                   className="landing-page-title"
                   fontSize={["55px", "70px", "82px"]}
                 >
-                Web-Services for typical agitators
+                  Web-Services for typical agitators
                 </Text>
               </Box>
               {/* <Box backgroundColor="red">
@@ -260,11 +232,14 @@ export default function Home() {
                 className="landing-page-subtitle"
                 fontSize={["17px", "23px", "30px"]}
               >
-                mobile-first features for rebel creators & unorthodox community builders
+                mobile-first features for rebel creators & unorthodox community
+                builders
               </Text>
             </Box>
             <Box className="landing-page-section-btn" px={4}>
-              <button className="btn-get-black">get</button>
+              <Link href="/contact">
+                <button className="btn-get-black">get</button>
+              </Link>
             </Box>
           </Box>
         </Box>
@@ -281,7 +256,28 @@ export default function Home() {
                 text="Full access of the source code. Make sales using Paypal and Metamask to get paid in cryptos. Keep your customers data protected.
           & more."
               />
+              <Stack
+                direction="row"
+                justifyContent="right"
+                alignItems="right"
+                mt={4}
+                mr={6}
+              >
+                <ButtonGroup gap={[2, 4]}>
+                  <Link href="/contact">
+                    <Button className="btn-visuals" size={["xs", "sm", "xl"]}>
+                      Get
+                    </Button>
+                  </Link>
+                  <Link href="/sell">
+                    <Button className="btn-readMore" size={["xs", "sm", "xl"]}>
+                      Read More
+                    </Button>
+                  </Link>
+                </ButtonGroup>
+              </Stack>
             </Box>
+
             <Box>
               <TextBoxLeft
                 upTitle="ONLINE ART"
@@ -289,7 +285,29 @@ export default function Home() {
                 text="Sell your art on the blockchain and never get your art censored or deleted ever again. Keep your privacy safe. Make sales in cryptos on your private wallet.
          & more."
               />
+              <Stack
+                direction="row"
+                justifyContent="left"
+                alignItems="left"
+                mt={4}
+                ml={6}
+                mb={40}
+              >
+                <ButtonGroup gap={[4, 2]}>
+                  <Link href="/sell">
+                    <Button className="btn-readMore" size={["xs", "sm", "xl"]}>
+                      Read More
+                    </Button>
+                  </Link>
+                  <Link href="/contact">
+                    <Button className="btn-visuals" size={["xs", "sm", "xl"]}>
+                      Get
+                    </Button>
+                  </Link>
+                </ButtonGroup>
+              </Stack>
             </Box>
+
             <Box>
               <TextBoxRight
                 upTitle="only fans"
@@ -297,6 +315,26 @@ export default function Home() {
                 text="Get paid monthly by offering your community specific content: private sales, fan art, and more. 
             A simple and efficient way to fund your various projects."
               />
+              <Stack
+                direction="row"
+                justifyContent="right"
+                alignItems="right"
+                mt={4}
+                mr={6}
+              >
+                <ButtonGroup gap={[2, 4]}>
+                  <Link href="/contact">
+                    <Button className="btn-visuals" size={["xs", "sm", "xl"]}>
+                      Get
+                    </Button>
+                  </Link>
+                  <Link href="/grow">
+                    <Button className="btn-readMore" size={["xs", "sm", "xl"]}>
+                      Read More
+                    </Button>
+                  </Link>
+                </ButtonGroup>
+              </Stack>
             </Box>
           </Stack>
         </section>
@@ -324,9 +362,11 @@ export default function Home() {
               />
             </Box>
             <Box className="landing-page-section-btn" px={4}>
-              <Button className="btn-readMore" size={["xs", "sm", "xl"]}>
-                discover
-              </Button>
+              <Link href="/sell">
+                <Button className="btn-readMore" size={["xs", "sm", "xl"]}>
+                  discover
+                </Button>
+              </Link>
             </Box>
           </Stack>
         </section>
@@ -354,9 +394,11 @@ export default function Home() {
               />
             </Box>
             <Box className="landing-page-section-btn" px={4}>
-              <Button className="btn-readMore" size={["xs", "sm", "xl"]}>
-                discover
-              </Button>
+              <Link href="/grow">
+                <Button className="btn-readMore" size={["xs", "sm", "xl"]}>
+                  discover
+                </Button>
+              </Link>
             </Box>
           </Stack>
         </section>
@@ -383,11 +425,11 @@ export default function Home() {
                 bullet5="& much more"
               />
             </Box>
-            <Box className="landing-page-section-btn" px={4}>
+            {/* <Box className="landing-page-section-btn" px={4}>
               <Button className="btn-readMore" size={["xs", "sm", "xl"]}>
                 discover
               </Button>
-            </Box>
+            </Box> */}
           </Stack>
         </section>
         <section className="getYours-section">

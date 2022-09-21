@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 // Import CHAKRA tools
 import {
   Box,
@@ -302,9 +303,11 @@ const pricing = () => {
               />
             </Box>
             <Box className="landing-page-section-btn" px={4}>
-              <Button className="btn-readMore" size={["xs", "sm", "xl"]}>
-                Contact
-              </Button>
+              <Link href="/contact">
+                <Button className="btn-readMore" size={["xs", "sm", "xl"]}>
+                  Contact
+                </Button>
+              </Link>
             </Box>
           </Stack>
         </section>

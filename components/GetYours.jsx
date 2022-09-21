@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 // Import CHAKRA tools
 import { Box, Text, Stack, Button } from "@chakra-ui/react";
 const getYours = () => {
@@ -12,13 +13,15 @@ const getYours = () => {
             </Text>
           </Box>
           <Box>
-            <Button
-              mt={4}
-              className="btn-getYours-white"
-              size={["xs", "sm", "xl"]}
-            >
-              get
-            </Button>
+            <Link href="/contact">
+              <Button
+                mt={4}
+                className="btn-getYours-white"
+                size={["xs", "sm", "xl"]}
+              >
+                get
+              </Button>
+            </Link>
           </Box>
         </Stack>
       </Box>

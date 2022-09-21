@@ -16,11 +16,7 @@ import {
 
 //-------------- Import ICONS --------------
 import { GoThreeBars } from "react-icons/go";
-import {
-  TbBrandLinkedin,
-  TbBrandTiktok,
-  TbBrandInstagram,
-} from "react-icons/tb";
+import { TbBrandLinkedin, TbBrandInstagram } from "react-icons/tb";
 
 const Navbar = () => {
   return (
@@ -50,6 +46,7 @@ const Navbar = () => {
                 _hover={{ color: "#000000" }}
                 _expanded={{ bg: "transparent", color: "#6D6D6D" }}
                 _focus={{ boxShadow: "none" }}
+                mt={[0, 2, 3]}
               >
                 <GoThreeBars />
               </MenuButton>

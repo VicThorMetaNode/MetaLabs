@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+
 // Import CHAKRA tools
 import {
   Box,
@@ -320,9 +321,14 @@ const sell = () => {
               />
             </Box>
             <Box className="landing-page-section-btn" px={4}>
-              <Button className="btn-readMore" size={["xs", "sm", "xl"]}>
-                read more
-              </Button>
+              <a
+                href="https://www.websitebuilderexpert.com/website-builders/comparisons/wix-vs-wordpress/"
+                target="_blank"
+              >
+                <Button className="btn-readMore" size={["xs", "sm", "xl"]}>
+                  read more
+                </Button>
+              </a>
             </Box>
           </Stack>
         </section>

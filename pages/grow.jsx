@@ -311,9 +311,14 @@ const grow = () => {
               />
             </Box>
             <Box className="landing-page-section-btn" px={4}>
-              <Button className="btn-readMore" size={["xs", "sm", "xl"]}>
-                read more
-              </Button>
+              <a
+                href="https://launchkit.io/how-much-onlyfans-take-from-creators/"
+                target="_blank"
+              >
+                <Button className="btn-readMore" size={["xs", "sm", "xl"]}>
+                  read more
+                </Button>
+              </a>
             </Box>
           </Stack>
         </section>
