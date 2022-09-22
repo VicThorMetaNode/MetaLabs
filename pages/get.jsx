@@ -1,9 +1,10 @@
 import React from "react";
 import Link from "next/link";
-// Import CHAKRA tools
-import { Text, Box, Stack, Flex, Button } from "@chakra-ui/react";
 
-import Form from "../components/Form";
+// Import CHAKRA tools
+import { Box, Flex, Stack, Text, Button } from "@chakra-ui/react";
+
+import GetForm from "../components/GetForm";
 
 //INTERNAL COMPONENTS
 const BigSingleTitleBlack = ({ title }) => (
@@ -22,46 +23,60 @@ const BigSingleTitleBlack = ({ title }) => (
   </>
 );
 
-const contact = () => {
+const get = () => {
   return (
     <>
-      <section className="contact-page">
+      <section className="get-page">
         <Box>
-          <BigSingleTitleBlack title="Contact" />
+          <BigSingleTitleBlack title="get" />
         </Box>
         <Box mt={10}>
           <Stack direction="column" justifyContent="center" alignItems="center">
             <Box>
               <Text
-                className="contact-page-title"
+                className="sell-page-title"
                 textAlign="center"
-                textTransform="uppercase"
                 fontSize={["26px", "46px", "56px"]}
+                textTransform="uppercase"
                 px={[6, 10, 10]}
               >
-                CONTACT FORM.
+                Order Form.
               </Text>
             </Box>
             <Box>
               <Text
-                className="contact-page-subText"
+                className="sell-page-subText"
                 textAlign="center"
                 fontSize={["18px", "36px", "46px"]}
                 px={[6, 10, 10]}
                 mt={4}
               >
-                Let's keep in touch
+                Tell me all about your project
+              </Text>
+            </Box>
+            <Box mt={8}>
+              <Text
+                className="get-page-alertText"
+                textAlign="center"
+                color="#CCFF00"
+                fontWeight={600}
+                fontSize={["13px", "26px", "36px"]}
+                px={[6, 10, 10]}
+                mt={4}
+              >
+                ! Full until February 2023 !
               </Text>
             </Box>
           </Stack>
         </Box>
-      </section>
-      <section>
-        <Stack justifyContent="center" alignItems="center">
-          <Box mt={10} mx={2} p={10} className="form-box">
-            <Form />
-          </Box>
-        </Stack>
+
+        <section>
+          <Stack justifyContent="center" alignItems="center">
+            <Box mt={10} mx={2} p={10} className="form-box">
+              <GetForm />
+            </Box>
+          </Stack>
+        </section>
 
         <Stack direction="column" justifyContent="center" alignItems="center">
           <Box mb={2}>
@@ -72,13 +87,13 @@ const contact = () => {
               px={[6, 10, 10]}
               mt={4}
             >
-              Ready to order already ? Reach the order form instead
+              Not ready to order yet ? Contact me instead
             </Text>
           </Box>
           <Box>
-            <Link href="/get">
+            <Link href="/contact">
               <Button className="btn-readMore" size={["xs", "sm", "xl"]}>
-                get
+                contact
               </Button>
             </Link>
           </Box>
@@ -88,4 +103,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default get;

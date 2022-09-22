@@ -13,7 +13,7 @@ const getYours = () => {
             </Text>
           </Box>
           <Box>
-            <Link href="/contact">
+            <Link href="/get">
               <Button
                 mt={4}
                 className="btn-getYours-white"

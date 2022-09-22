@@ -237,7 +237,7 @@ export default function Home() {
               </Text>
             </Box>
             <Box className="landing-page-section-btn" px={4}>
-              <Link href="/contact">
+              <Link href="/get">
                 <button className="btn-get-black">get</button>
               </Link>
             </Box>
@@ -264,9 +264,9 @@ export default function Home() {
                 mr={6}
               >
                 <ButtonGroup gap={[2, 4]}>
-                  <Link href="/contact">
+                  <Link href="/shopVisuals">
                     <Button className="btn-visuals" size={["xs", "sm", "xl"]}>
-                      Get
+                      Visuals
                     </Button>
                   </Link>
                   <Link href="/sell">
@@ -299,9 +299,9 @@ export default function Home() {
                       Read More
                     </Button>
                   </Link>
-                  <Link href="/contact">
+                  <Link href="/artVisuals">
                     <Button className="btn-visuals" size={["xs", "sm", "xl"]}>
-                      Get
+                      Visuals
                     </Button>
                   </Link>
                 </ButtonGroup>
@@ -323,9 +323,9 @@ export default function Home() {
                 mr={6}
               >
                 <ButtonGroup gap={[2, 4]}>
-                  <Link href="/contact">
+                  <Link href="/fansVisuals">
                     <Button className="btn-visuals" size={["xs", "sm", "xl"]}>
-                      Get
+                      Visuals
                     </Button>
                   </Link>
                   <Link href="/grow">
@@ -425,11 +425,13 @@ export default function Home() {
                 bullet5="& much more"
               />
             </Box>
-            {/* <Box className="landing-page-section-btn" px={4}>
+            <Box className="landing-page-section-btn" px={4}>
+            <Link href="/contact">
               <Button className="btn-readMore" size={["xs", "sm", "xl"]}>
-                discover
+                contact
               </Button>
-            </Box> */}
+              </Link>
+            </Box>
           </Stack>
         </section>
         <section className="getYours-section">
