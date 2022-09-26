@@ -136,75 +136,155 @@ const shopVisuals = () => {
                 px={[6, 10, 10]}
                 mt={4}
               >
-                From classic layout to more artistic design.
+                From minimalist layouts to more unusual designs.
               </Text>
             </Box>
           </Stack>
-          <section className="shopVisuals-page">
-            <Stack
-              direction="column"
-              justifyContent="center"
-              alignItems="center"
-            >
-              <Box>
-                <Swiper className="mySwiper" slidesPerView={1} loop={true}>
-                  <SwiperSlide>
-                    <Box
-                      //   width={["300px", "400px", "500px"]}
-                      //   height={["400px", "500px", "600px"]}
-                      className="shopVisuals-swiper-box"
-                      //   border="1.5px solid #000"
-                    >
-                      <VStack
-                        justifyContent="center"
-                        alignItems="center"
-                        direction="column"
-                      >
-                        <Box className="shopVisuals-swiper-img-box">
-                          <Image
-                            src={ShopNode}
-                            width={400}
-                            height={460}
-                            alt="Tsuki Brand Collection Image Sales"
-                          />
-                          <Divider borderColor="#000" />
-                          <Box m={2}>
-                            <VStack>
-                              <Box>
-                                <Text className="shopVisuals-swiper-product-title">
-                                  SALE PRODUCT
-                                </Text>
-                              </Box>
-                              <Box>
-                                <HStack>
-                                  <Box>
-                                    <Text
-                                      className="shopVisuals-swiper-product-oldPrice"
-                                      textTransform="uppercase"
-                                      textDecoration="line-through"
-                                    >
-                                      €156 EUR
-                                    </Text>
-                                  </Box>
-                                  <Box>
-                                    <Text
-                                      textTransform="uppercase"
-                                      className="shopVisuals-swiper-product-newPrice"
-                                    >
-                                      €86 EUR
-                                    </Text>
-                                  </Box>
-                                </HStack>
-                              </Box>
-                            </VStack>
+
+          <section className="shopVisuals-page-swiper-section">
+            <Box mb={3}>
+              <Swiper
+                className="mySwiper"
+                slidesPerView={1}
+                loop={true}
+                spaceBetween={30}
+              >
+                <SwiperSlide>
+                  <Box className="shopVisuals-swiper-box swiper-box-border">
+                    <VStack>
+                      <Image
+                        src={ShopNode}
+                        width={420}
+                        height={560}
+                        objectFit="cover"
+                        alt="Visuals for Online-Shops"
+                      />
+                      <hr className="shopVisuals-swiper-divider" />
+                      <Box m={2}>
+                        <VStack>
+                          <Box>
+                            <Text className="slide-1-product-title">
+                              Minimalist Design
+                            </Text>
                           </Box>
-                        </Box>
-                      </VStack>
-                    </Box>
-                  </SwiperSlide>
-                </Swiper>
-              </Box>
-            </Stack>
+
+                          <Box mt={2}>
+                            <Text
+                              className="slide-1-product-text"
+                              textAlign="center"
+                            >
+                              Made for soft, milky & satisfying vibes
+                            </Text>
+                          </Box>
+                        </VStack>
+                      </Box>
+                    </VStack>
+                  </Box>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                  <Box className="shopVisuals-swiper-box swiper-box-shadow">
+                    <VStack>
+                      <Image
+                        src={ShopNode}
+                        width={420}
+                        height={560}
+                        objectFit="cover"
+                        alt="Visuals for Online-Shops"
+                      />
+
+                      <Box m={2}>
+                        <Stack
+                          direction="column"
+                          justifyContent="center"
+                          alignItems="center"
+                          textAlign="center"
+                        >
+                          <Box>
+                            <Text
+                              className="slide-2-product-title"
+                              width={"20rem"}
+                            >
+                              Floating Design
+                            </Text>
+                          </Box>
+
+                          <Box mt={2}>
+                            <Text
+                              className="slide-2-product-text"
+                              width={"15rem"}
+                            >
+                              Made for mist, pure & cloudy vibes
+                            </Text>
+                          </Box>
+                        </Stack>
+                      </Box>
+                    </VStack>
+                  </Box>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                  <Box className="shopVisuals-swiper-box swiper-box-neon">
+                    <VStack>
+                      <Image
+                        src={ShopNode}
+                        width={420}
+                        height={560}
+                        objectFit="cover"
+                        alt="Visuals for Online-Shops"
+                      />
+
+                      <Box m={2}>
+                        <Stack
+                          direction="column"
+                          justifyContent="center"
+                          alignItems="center"
+                          textAlign="center"
+                        >
+                          <Box>
+                            <Button className="slide-3-product-title">
+                              CyberPunk Design
+                            </Button>
+                          </Box>
+
+                          <Box mt={2}>
+                            <Text
+                              className="slide-3-product-text"
+                              width={"15rem"}
+                            >
+                              Made for neon, alien & vibrating vibes
+                            </Text>
+                          </Box>
+                        </Stack>
+                      </Box>
+                    </VStack>
+                  </Box>
+                </SwiperSlide>
+
+                {/* <SwiperSlide>
+                  <Box
+                    className="shopVisuals-swiper-box and-more"
+                    width={420}
+                    height={560}
+                  >
+                    <Stack
+                      justifyContent="center"
+                      alignItems="center"
+                      textAlign="center"
+                    >
+                      <Text
+                        className="sell-page-title"
+                        textAlign="center"
+                        fontSize={["26px", "46px", "56px"]}
+                        px={[6, 10, 10]}
+                      >
+                        & more
+                      </Text>
+                    </Stack>
+                  </Box>
+                </SwiperSlide> */}
+              </Swiper>
+            </Box>
 
             <Stack
               direction="column"

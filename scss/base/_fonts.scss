@@ -1,15 +1,35 @@
 /* import-FONTS FAMILY */
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jura:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=Syncopate:wght@400;700&family=Unica+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400&family=Six+Caps&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@200&family=Rubik+Mono+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Kdam+Thmor+Pro&display=swap');
 
 
 /*----------------------------- FONTS FAMILY ------------------------*/
 :root {
+  /*----------- MAIN ---------*/
   --ft-title-space: 'Space Grotesk', sans-serif;
   --ft-subtitle-istok: 'Istok Web', sans-serif;
   --ft-keyword-unica: 'Unica One', cursive;
   --ft-text-jura: 'Jura', sans-serif;
   --ft-btn-syncopate: 'Syncopate', sans-serif;
+
+  /*----------- VISUAL SLIDES ---------*/
+  //--------- slide 1 ---------
+  --ft-minimalist-title: 'Six Caps', sans-serif;
+  --ft-minimalist-text: 'Assistant', sans-serif;
+
+  //--------- slide 2 ---------
+  --ft-shadow-title: 'Rubik Mono One', sans-serif;
+  --ft-shadow-text: 'Krub', sans-serif;
+
+  //--------- slide 2 ---------
+  --ft-neon-title: 'Kdam Thmor Pro', sans-serif;
+  --ft-neon-text: 'Odibee Sans', cursive;
+
+
 }
 

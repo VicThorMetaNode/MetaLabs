@@ -1,0 +1,98 @@
+
+.shopVisuals-page-swiper-section {
+margin-top: 5rem;
+margin-bottom: 3rem;
+}
+
+
+//-------------- SWIPER SECTION -----------
+.shopVisuals-swiper-box {
+    margin:  0px 2rem  0px 2rem;
+    padding: 2rem;
+}
+
+
+//--------- SLIDE 1 ---------
+.swiper-box-border {
+    border: 1px solid var(--clr-btn-contact);
+    border-radius: var(--border-r2);
+    
+}
+
+.shopVisuals-swiper-divider {
+    width: 5rem ;
+    border-top: 1px solid black;
+    // margin-top: -2rem;
+}
+
+.slide-1-product-title {
+font-family: var(--ft-minimalist-title);
+font-size: var(--font-size-30);
+letter-spacing: 1px;
+}
+
+.slide-1-product-text {
+    font-family: var(--ft-minimalist-text);
+    font-size: var(--font-size-22);
+}
+
+
+//--------- SLIDE 2 ---------
+
+.swiper-box-shadow {
+    box-shadow: var(--dark-shadow);
+}
+
+// .shopVisuals-swiper-divider-shadow {
+//     width: 5rem ;
+//     border-top: 1px solid rgb(197, 197, 197);
+// }
+
+.slide-2-product-title {
+    font-family: var(--ft-shadow-title);
+    font-size: var(--font-size-24);
+    
+}
+
+.slide-2-product-text {
+    font-family: var(--ft-shadow-text);
+    font-size: var(--font-size-22);
+}
+
+//--------- SLIDE 3 ---------
+
+.swiper-box-neon {
+    box-shadow: var(--light-shadow-zil);
+    background-color: #000f26;
+    border-radius: 5px 50px 5px 50px  ;
+    border: 1px solid #00ccb4;
+    
+}
+
+// .shopVisuals-swiper-divider-shadow {
+//     width: 5rem ;
+//     border-top: 1px solid rgb(197, 197, 197);
+// }
+
+.slide-3-product-title {
+    font-family: var(--ft-neon-title);
+    font-size: var(--font-size-24);
+    padding:8px 20px 8px 20px !important ;
+    background-color: #32245e !important;
+    border: 1px solid #d9d8d8 !important;
+    border-radius: var(--border-r1) !important;
+    // box-shadow: var(--dark-shadow-zil);
+    color: #e4e5e9 ;
+}
+
+.slide-3-product-text {
+    font-family: var(--ft-neon-text);
+    font-size: var(--font-size-22);
+    color: #00ccb4;
+   
+}
+
+//--------- SLIDE &More ---------
+.and-more {
+    background-color: #000f26;
+}

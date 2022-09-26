@@ -169,7 +169,7 @@ const grow = () => {
                 px={[6, 10, 10]}
                 mt={4}
               >
-                Agitators and content creators, deploy your own{" "}
+                Agitators and disruptive content creators, deploy your own{" "}
                 <span className="text-bold-600">fan-based</span> platform and
                 get financial support every month .
               </Text>
