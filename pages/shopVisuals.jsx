@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 
 // photo cosmetique https://unsplash.com/photos/_4gFW3mBRCc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
@@ -122,6 +122,11 @@ const TextBoxLeft = ({ upTitle, text }) => (
 );
 
 const shopVisuals = () => {
+  //TAP TO DISCOVER
+  const [showSource1, setShowSource1] = useState(false);
+  const [showSource2, setShowSource2] = useState(false);
+  const [showSource3, setShowSource3] = useState(false);
+  const [showSource4, setShowSource4] = useState(false);
   return (
     <>
       <section className="shopVisuals-page">
@@ -159,7 +164,7 @@ const shopVisuals = () => {
                 className="mySwiper"
                 slidesPerView={1}
                 loop={true}
-                spaceBetween={30}
+                // spaceBetween={2}
               >
                 <SwiperSlide>
                   <Box
@@ -168,13 +173,50 @@ const shopVisuals = () => {
                     h={"33.75rem"}
                   >
                     <VStack>
-                      <Image
-                        src={cosmetik}
-                        width={420}
-                        height={560}
-                        objectFit="cover"
-                        alt="Visuals for Online-Shops"
-                      />
+                      <a onClick={() => setShowSource1(!showSource1)}>
+                        {showSource1 ? (
+                          <>
+                            <Image
+                              src={cosmetik}
+                              width={420}
+                              height={560}
+                              objectFit="cover"
+                              alt="Natasha Kendall on UnSplash"
+                            />
+
+                            <Box mb={"-1rem"}>
+                              <Text className="slide-1-source">
+                                *
+                                <a
+                                  href="https://unsplash.com/photos/_4gFW3mBRCc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="shopVisuals-artist-link"
+                                >
+                                  @NatashaKendall
+                                </a>{" "}
+                                on{" "}
+                                <a
+                                  href="https://unsplash.com/"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="shopVisuals-unsplash-link"
+                                >
+                                  <i> unsplash</i>
+                                </a>
+                              </Text>
+                            </Box>
+                          </>
+                        ) : (
+                          <Image
+                            src={cosmetik}
+                            width={420}
+                            height={560}
+                            objectFit="cover"
+                            alt="Natasha Kendall on UnSplash"
+                          />
+                        )}
+                      </a>
                       {/* <hr className="shopVisuals-swiper-divider" /> */}
                       <Box>
                         <VStack>
@@ -184,7 +226,7 @@ const shopVisuals = () => {
                             </Text>
                           </Box>
 
-                          <Box mt={2}>
+                          <Box>
                             <Text
                               className="slide-1-product-text"
                               textAlign="center"
@@ -206,13 +248,49 @@ const shopVisuals = () => {
                     h={"33.75rem"}
                   >
                     <VStack>
-                      <Image
-                        src={whiteBook}
-                        width={420}
-                        height={560}
-                        objectFit="cover"
-                        alt="Visuals for Online-Shops"
-                      />
+                      <a onClick={() => setShowSource2(!showSource2)}>
+                        {showSource2 ? (
+                          <>
+                            <Image
+                              src={whiteBook}
+                              width={420}
+                              height={560}
+                              objectFit="cover"
+                              alt="Visuals for Online-Shops"
+                            />
+                            <Box mb={"-1.1rem"}>
+                              <Text className="slide-1-source">
+                                *
+                                <a
+                                  href="https://unsplash.com/photos/_4gFW3mBRCc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="shopVisuals-artist-link"
+                                >
+                                  @77hn
+                                </a>{" "}
+                                on{" "}
+                                <a
+                                  href="https://unsplash.com/"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="shopVisuals-unsplash-link"
+                                >
+                                  <i> unsplash</i>
+                                </a>
+                              </Text>
+                            </Box>
+                          </>
+                        ) : (
+                          <Image
+                            src={whiteBook}
+                            width={420}
+                            height={560}
+                            objectFit="cover"
+                            alt="Visuals for Online-Shops"
+                          />
+                        )}
+                      </a>
                       <hr className="shopVisuals-swiper-divider-shadow" />
                       <Box>
                         <Stack
@@ -252,14 +330,49 @@ const shopVisuals = () => {
                     h={"33.75rem"}
                   >
                     <VStack>
-                      <Image
-                        src={nft}
-                        width={420}
-                        height={560}
-                        objectFit="cover"
-                        alt="Visuals for Online-Shops"
-                      />
-
+                      <a onClick={() => setShowSource3(!showSource3)}>
+                        {showSource3 ? (
+                          <>
+                            <Image
+                              src={nft}
+                              width={420}
+                              height={560}
+                              objectFit="cover"
+                              alt="Visuals for Online-Shops"
+                            />
+                            <Box mb={"-1rem"}>
+                              <Text className="slide-1-source light">
+                                *
+                                <a
+                                  href="https://opensea.io/collection/techyo-2050"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="shopVisuals-artist-link"
+                                >
+                                  @TechYo-2050
+                                </a>{" "}
+                                on{" "}
+                                <a
+                                  href="https://opensea.io/"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="shopVisuals-unsplash-link light"
+                                >
+                                  <i> OpenSea</i>
+                                </a>
+                              </Text>
+                            </Box>
+                          </>
+                        ) : (
+                          <Image
+                            src={nft}
+                            width={420}
+                            height={560}
+                            objectFit="cover"
+                            alt="Visuals for Online-Shops"
+                          />
+                        )}
+                      </a>
                       <Box m={2}>
                         <Stack
                           direction="column"
@@ -296,14 +409,51 @@ const shopVisuals = () => {
                   >
                     <VStack>
                       <Box className="slide-4-img">
-                        <Image
-                          src={androSwitch}
-                          width={420}
-                          height={560}
-                          objectFit="cover"
-                          alt="Visuals for Online-Shops"
-                        />
+                        <a onClick={() => setShowSource4(!showSource4)}>
+                          {showSource4 ? (
+                            <>
+                              <Image
+                                src={androSwitch}
+                                width={420}
+                                height={560}
+                                objectFit="cover"
+                                alt="Visuals for Online-Shops"
+                              />
+                              <Box mb={"-1rem"}>
+                                <Text className="slide-1-source colorful">
+                                  *
+                                  <a
+                                    href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lamaisondesmaternelles.fr%2Farticle%2Fj-ai-invente-l-anneau-contraceptif-masculin-rencontre-avec-l-homme-qui-veut-revolutionner&psig=AOvVaw0nBhVpMkPUVVVKFgXYEUEe&ust=1664376526904000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJD6lfGbtfoCFQAAAAAdAAAAABAD"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="shopVisuals-artist-link colorful"
+                                  >
+                                    @Andro-Switch
+                                  </a>{" "}
+                                  on{" "}
+                                  <a
+                                    href="https://thoreme.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="shopVisuals-unsplash-link colorful"
+                                  >
+                                    <i>Thoreme</i>
+                                  </a>
+                                </Text>
+                              </Box>
+                            </>
+                          ) : (
+                            <Image
+                              src={androSwitch}
+                              width={420}
+                              height={560}
+                              objectFit="cover"
+                              alt="Visuals for Online-Shops"
+                            />
+                          )}
+                        </a>
                       </Box>
+
                       <Box>
                         <Stack
                           direction="column"
@@ -369,6 +519,9 @@ const shopVisuals = () => {
               justifyContent="center"
               alignItems="center"
             >
+              <Text className="shopVisuals-page-copyright-mention">
+                * tap on the picture for copyright & source links
+              </Text>
               <Box className="interior-project-bottom-swipe-box">
                 <HStack>
                   <BsArrowLeftShort className="arrow-swipe-icon" size="30px" />

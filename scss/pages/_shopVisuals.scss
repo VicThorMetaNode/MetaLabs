@@ -19,11 +19,6 @@ margin-bottom: 5rem;
     
 }
 
-// .shopVisuals-swiper-divider {
-  
-   
-// }
-
 .slide-1-product-title {
 font-family: var(--ft-minimalist-title);
 font-size: var(--font-size-34);
@@ -34,6 +29,31 @@ letter-spacing: 1px;
     font-family: var(--ft-minimalist-text);
     font-size: var(--font-size-20);
     text-transform: uppercase;
+}
+
+.slide-1-source {
+    font-family: var(--ft-text-jura);
+    font-size: var(--font-size-13);
+    font-weight: 100;
+    
+}
+
+.shopVisuals-artist-link {
+    font-family: var(--ft-text-jura);
+    font-size: var(--font-size-13);
+    font-weight: 100;
+    
+}
+
+.shopVisuals-unsplash-link {
+    font-family: var(--ft-minimalist-text);
+    font-size: var(--font-size-13);
+    font-weight: 100;
+    
+}
+
+.light {
+    color: #ede068;
 }
 
 
@@ -105,10 +125,10 @@ letter-spacing: 1px;
     
 }
 
-// .shopVisuals-swiper-divider-shadow {
-//     width: 5rem ;
-//     border-top: 1px solid rgb(197, 197, 197);
-// }
+.colorful {
+    color: #f9221b;
+}
+
 
 .slide-4-product-title {
     font-family: var(--ft-acid-title);
@@ -143,4 +163,15 @@ letter-spacing: 1px;
 //--------- SLIDE &More ---------
 .and-more {
     background-color: #000f26;
+}
+
+
+
+
+
+//--------- COPYRIGHT MENTION ------
+.shopVisuals-page-copyright-mention {
+    font-family: var(--ft-text-jura);
+    font-size: var(--font-size-12);
+    font-weight: 100;
 }
