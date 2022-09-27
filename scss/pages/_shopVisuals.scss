@@ -1,13 +1,13 @@
 
 .shopVisuals-page-swiper-section {
-margin-top: 5rem;
-margin-bottom: 3rem;
+margin-top: 3rem;
+margin-bottom: 5rem;
 }
 
 
 //-------------- SWIPER SECTION -----------
 .shopVisuals-swiper-box {
-    margin:  0px 2rem  0px 2rem;
+    margin:  0px 2rem  2rem 2rem;
     padding: 2rem;
 }
 
@@ -15,25 +15,25 @@ margin-bottom: 3rem;
 //--------- SLIDE 1 ---------
 .swiper-box-border {
     border: 1px solid var(--clr-btn-contact);
-    border-radius: var(--border-r2);
+    // border-radius: var(--border-r2);
     
 }
 
-.shopVisuals-swiper-divider {
-    width: 5rem ;
-    border-top: 1px solid black;
-    // margin-top: -2rem;
-}
+// .shopVisuals-swiper-divider {
+  
+   
+// }
 
 .slide-1-product-title {
 font-family: var(--ft-minimalist-title);
-font-size: var(--font-size-30);
+font-size: var(--font-size-34);
 letter-spacing: 1px;
 }
 
 .slide-1-product-text {
     font-family: var(--ft-minimalist-text);
-    font-size: var(--font-size-22);
+    font-size: var(--font-size-20);
+    text-transform: uppercase;
 }
 
 
@@ -41,16 +41,18 @@ letter-spacing: 1px;
 
 .swiper-box-shadow {
     box-shadow: var(--dark-shadow);
+    
 }
 
-// .shopVisuals-swiper-divider-shadow {
-//     width: 5rem ;
-//     border-top: 1px solid rgb(197, 197, 197);
-// }
+ .shopVisuals-swiper-divider-shadow {
+      width: 5rem ;
+    margin-top: 1.5rem !important;
+    border-top: 1px solid black;
+ }
 
 .slide-2-product-title {
     font-family: var(--ft-shadow-title);
-    font-size: var(--font-size-24);
+    font-size: var(--font-size-25);
     
 }
 
@@ -83,13 +85,59 @@ letter-spacing: 1px;
     border-radius: var(--border-r1) !important;
     // box-shadow: var(--dark-shadow-zil);
     color: #e4e5e9 ;
+    box-shadow: #009987 0px 18px 50px -10px;
 }
 
 .slide-3-product-text {
     font-family: var(--ft-neon-text);
-    font-size: var(--font-size-22);
+    font-size: var(--font-size-24);
     color: #00ccb4;
    
+}
+
+//--------- SLIDE 4 ---------
+
+.swiper-box-acid {
+    
+    background-color: #ede734 !important;
+    border-radius: 0px 0px 50px 50px  ;
+    // border: 1px solid #00ccb4;
+    
+}
+
+// .shopVisuals-swiper-divider-shadow {
+//     width: 5rem ;
+//     border-top: 1px solid rgb(197, 197, 197);
+// }
+
+.slide-4-product-title {
+    font-family: var(--ft-acid-title);
+    font-size: var(--font-size-24);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    color: #1b1c1e  ;
+}
+
+.slide-4-product-text {
+    font-family: var(--ft-acid-text);
+    font-size: var(--font-size-24);
+    text-transform: uppercase;
+    color: #e4e5e9;
+    padding:25px 50px 25px 50px !important ;
+    width: 17rem !important;
+    background-color: rgb(255, 85, 85) !important;
+    border: 1.5px solid #d9d8d8 !important;
+    border-radius: 0px !important;
+   
+}
+
+.slide-4-img {
+    margin-top: 0.5rem;
+    margin-right: 0.11rem;
+    // box-shadow: 0px 2px 4px 0px inset hsl(26, 100%, 57%) ;
+    box-shadow:  rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+    
 }
 
 //--------- SLIDE &More ---------

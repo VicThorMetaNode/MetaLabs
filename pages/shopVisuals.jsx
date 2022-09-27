@@ -1,6 +1,11 @@
 import React from "react";
 import Image from "next/image";
 
+// photo cosmetique https://unsplash.com/photos/_4gFW3mBRCc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+// photo white book Photo by <a href="https://unsplash.com/@77hn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">The 77 Human Needs System</a> on <a href="https://unsplash.com/s/photos/manual?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+// photo water journal Photo by <a href="https://unsplash.com/@waterjournal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Water Journal</a> on <a href="https://unsplash.com/s/photos/design-book?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+// photo nft by Techyo-2050 https://opensea.io/collection/techyo-2050
+
 // Import CHAKRA tools
 import {
   Box,
@@ -8,10 +13,9 @@ import {
   Stack,
   Text,
   Button,
-  Container,
+  Icon,
   VStack,
   HStack,
-  Divider,
 } from "@chakra-ui/react";
 
 // Import Swiper React components
@@ -20,7 +24,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 //Import IMAGES
-import ShopNode from "../dist/img/mockrocket-capture10.png";
+import nft from "../dist/img/techno.png";
+import androSwitch from "../dist/img/androswitch.jpeg";
+import cosmetik from "../dist/img/natasha-kendall.jpg";
+import whiteBook from "../dist/img/the-77-human-needs-system.jpg";
+// import whiteJournal from "../dist/img/water-journal--Evvseg.jpg";
+
+// IMPORT ICONS
+import { BsArrowBarRight } from "react-icons/bs";
+
 //IMPORT COMPONENTS
 import GetYours from "../components/GetYours";
 import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
@@ -150,20 +162,24 @@ const shopVisuals = () => {
                 spaceBetween={30}
               >
                 <SwiperSlide>
-                  <Box className="shopVisuals-swiper-box swiper-box-border">
+                  <Box
+                    className="shopVisuals-swiper-box swiper-box-border"
+                    w={"20rem"}
+                    h={"33.75rem"}
+                  >
                     <VStack>
                       <Image
-                        src={ShopNode}
+                        src={cosmetik}
                         width={420}
                         height={560}
                         objectFit="cover"
                         alt="Visuals for Online-Shops"
                       />
-                      <hr className="shopVisuals-swiper-divider" />
-                      <Box m={2}>
+                      {/* <hr className="shopVisuals-swiper-divider" /> */}
+                      <Box>
                         <VStack>
                           <Box>
-                            <Text className="slide-1-product-title">
+                            <Text className="slide-1-product-title" mt={5}>
                               Minimalist Design
                             </Text>
                           </Box>
@@ -173,7 +189,8 @@ const shopVisuals = () => {
                               className="slide-1-product-text"
                               textAlign="center"
                             >
-                              Made for soft, milky & satisfying vibes
+                              Made for soft, milky
+                              <br /> & <i> satisfying</i> vibes
                             </Text>
                           </Box>
                         </VStack>
@@ -183,24 +200,28 @@ const shopVisuals = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <Box className="shopVisuals-swiper-box swiper-box-shadow">
+                  <Box
+                    className="shopVisuals-swiper-box swiper-box-shadow"
+                    w={"20rem"}
+                    h={"33.75rem"}
+                  >
                     <VStack>
                       <Image
-                        src={ShopNode}
+                        src={whiteBook}
                         width={420}
                         height={560}
                         objectFit="cover"
                         alt="Visuals for Online-Shops"
                       />
-
-                      <Box m={2}>
+                      <hr className="shopVisuals-swiper-divider-shadow" />
+                      <Box>
                         <Stack
                           direction="column"
                           justifyContent="center"
                           alignItems="center"
                           textAlign="center"
                         >
-                          <Box>
+                          <Box mt={3}>
                             <Text
                               className="slide-2-product-title"
                               width={"20rem"}
@@ -209,12 +230,13 @@ const shopVisuals = () => {
                             </Text>
                           </Box>
 
-                          <Box mt={2}>
+                          <Box mt={1}>
                             <Text
                               className="slide-2-product-text"
                               width={"15rem"}
                             >
-                              Made for mist, pure & cloudy vibes
+                              Made for mist, pure
+                              <br /> & cloudy vibes
                             </Text>
                           </Box>
                         </Stack>
@@ -224,10 +246,14 @@ const shopVisuals = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <Box className="shopVisuals-swiper-box swiper-box-neon">
+                  <Box
+                    className="shopVisuals-swiper-box swiper-box-neon"
+                    w={"20rem"}
+                    h={"33.75rem"}
+                  >
                     <VStack>
                       <Image
-                        src={ShopNode}
+                        src={nft}
                         width={420}
                         height={560}
                         objectFit="cover"
@@ -241,16 +267,17 @@ const shopVisuals = () => {
                           alignItems="center"
                           textAlign="center"
                         >
-                          <Box>
+                          <Box mt={5}>
                             <Button className="slide-3-product-title">
                               CyberPunk Design
                             </Button>
                           </Box>
 
-                          <Box mt={2}>
+                          <Box>
                             <Text
                               className="slide-3-product-text"
                               width={"15rem"}
+                              mt={2}
                             >
                               Made for neon, alien & vibrating vibes
                             </Text>
@@ -261,11 +288,62 @@ const shopVisuals = () => {
                   </Box>
                 </SwiperSlide>
 
+                <SwiperSlide>
+                  <Box
+                    className="shopVisuals-swiper-box swiper-box-acid"
+                    w={"20rem"}
+                    h={"33.75rem"}
+                  >
+                    <VStack>
+                      <Box className="slide-4-img">
+                        <Image
+                          src={androSwitch}
+                          width={420}
+                          height={560}
+                          objectFit="cover"
+                          alt="Visuals for Online-Shops"
+                        />
+                      </Box>
+                      <Box>
+                        <Stack
+                          direction="column"
+                          justifyContent="center"
+                          alignItems="center"
+                          textAlign="center"
+                        >
+                          <Box>
+                            <Text className="slide-4-product-title" mt={3}>
+                              Acidulous Design
+                            </Text>
+                          </Box>
+
+                          <Box>
+                            <Button
+                              className="slide-4-product-text"
+                              width={"15rem"}
+                              mt={1}
+                            >
+                              <HStack>
+                                <Text>Made for agitating vibes</Text>
+                                <Icon
+                                  as={BsArrowBarRight}
+                                  color="#e4e5e9"
+                                  boxSize={6}
+                                />
+                              </HStack>
+                            </Button>
+                          </Box>
+                        </Stack>
+                      </Box>
+                    </VStack>
+                  </Box>
+                </SwiperSlide>
+
                 {/* <SwiperSlide>
                   <Box
                     className="shopVisuals-swiper-box and-more"
-                    width={420}
-                    height={560}
+                    w={"20rem"}
+                    h={"33.75rem"}
                   >
                     <Stack
                       justifyContent="center"

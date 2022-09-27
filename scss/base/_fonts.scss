@@ -7,6 +7,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Kdam+Thmor+Pro&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&family=Red+Hat+Mono:wght@300&display=swap');
 
 /*----------------------------- FONTS FAMILY ------------------------*/
 :root {
@@ -26,10 +27,13 @@
   --ft-shadow-title: 'Rubik Mono One', sans-serif;
   --ft-shadow-text: 'Krub', sans-serif;
 
-  //--------- slide 2 ---------
+  //--------- slide 3 ---------
   --ft-neon-title: 'Kdam Thmor Pro', sans-serif;
   --ft-neon-text: 'Odibee Sans', cursive;
 
+    //--------- slide 4 ---------
+    --ft-acid-title: 'Montserrat', sans-serif;
+    --ft-acid-text: 'Red Hat Mono', monospace;
 
 }
 
