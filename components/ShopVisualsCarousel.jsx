@@ -436,7 +436,7 @@ const ShopVisualsCarousel = () => {
                   colorScheme="yellow"
                   variant="ghost"
                   isLoading
-                  loadingText="NFT is Loading"
+                  loadingText="NFT is loading..."
                 >
                   NFT
                 </Button>
