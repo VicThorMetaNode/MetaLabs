@@ -215,7 +215,7 @@ export default function Home() {
                   className="landing-page-title"
                   fontSize={["55px", "70px", "82px"]}
                 >
-                  Web3-Services for typical agitators
+                  Web-Services for typical agitators
                 </Text>
               </Box>
               {/* <Box backgroundColor="red">
@@ -426,10 +426,10 @@ export default function Home() {
               />
             </Box>
             <Box className="landing-page-section-btn" px={4}>
-            <Link href="/contact">
-              <Button className="btn-readMore" size={["xs", "sm", "xl"]}>
-                contact
-              </Button>
+              <Link href="/contact">
+                <Button className="btn-readMore" size={["xs", "sm", "xl"]}>
+                  contact
+                </Button>
               </Link>
             </Box>
           </Stack>

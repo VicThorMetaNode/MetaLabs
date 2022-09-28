@@ -9,6 +9,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&family=Red+Hat+Mono:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;500;600;700;800;900&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
 /*----------------------------- FONTS FAMILY ------------------------*/
 :root {
   /*----------- MAIN ---------*/
@@ -34,6 +36,11 @@
     //--------- slide 4 ---------
     --ft-acid-title: 'Montserrat', sans-serif;
     --ft-acid-text: 'Red Hat Mono', monospace;
+
+    //--------- slide 5 ---------
+    
+    --ft-meta-title: 'PT Sans Narrow', sans-serif;
+    --ft-meta-text: 'Inconsolata', monospace;
 
 }
 
