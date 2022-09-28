@@ -148,7 +148,7 @@ const shopVisuals = () => {
               alignItems="center"
             >
               <Text className="shopVisuals-page-copyright-mention">
-                * tap on the picture for copyright & source links
+                tap on the picture for copyright & source links
               </Text>
               <Box className="interior-project-bottom-swipe-box">
                 <HStack>

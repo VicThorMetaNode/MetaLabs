@@ -4,13 +4,13 @@ import Image from "next/image";
 // Import CHAKRA tools
 import {
   Box,
-  Flex,
   Stack,
   Text,
   Button,
   Icon,
   VStack,
   HStack,
+  Divider,
 } from "@chakra-ui/react";
 
 // Import Swiper React components
@@ -27,7 +27,8 @@ import androSwitch from "../dist/img/androswitch.jpeg";
 import cosmetik from "../dist/img/natasha-kendall.jpg";
 import whiteBook from "../dist/img/the-77-human-needs-system.jpg";
 import metaLand from "../dist/img/Metaverse-land.webp";
-// import whiteJournal from "../dist/img/Sandbox-Land.jpeg";
+import sandLogo from "../dist/img/sandboxlogo.png";
+// import whiteJournal from "../dist/img/sandboxlogo.png";
 
 const ShopVisualsCarousel = () => {
   //TAP TO DISCOVER
@@ -367,17 +368,17 @@ const ShopVisualsCarousel = () => {
                       height={360}
                       objectFit="cover"
                       alt="Metaverse Land on SandBox"
-                      className="blur-filter"
+                      className="shopVisuals-image-slide5-reverse"
                     />
 
                     <Box mb={"-1rem"}>
-                      <Text className="slide-1-source">
+                      <Text className="slide-1-source meta-link">
                         *
                         <a
                           href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fnairametrics.com%2F2021%2F12%2F02%2F106-million-worth-of-metaverse-land-was-sold-last-week%2F&psig=AOvVaw1-B4sxu3_cI2Ah7R5LyW5G&ust=1664450375474000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCIDFw4Ovt_oCFQAAAAAdAAAAABAD"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="shopVisuals-artist-link"
+                          className="shopVisuals-artist-link meta-link"
                         >
                           @MetaLand
                         </a>{" "}
@@ -386,7 +387,7 @@ const ShopVisualsCarousel = () => {
                           href="https://www.sandbox.game/en/"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="shopVisuals-unsplash-link"
+                          className="shopVisuals-unsplash-link meta-link"
                         >
                           <i> SandBox</i>
                         </a>
@@ -395,12 +396,20 @@ const ShopVisualsCarousel = () => {
                   </>
                 ) : (
                   <>
+                    <Box className="slide-5-product-title-div" px={4}>
+                      <Stack justifyContent="center" alignItems="center">
+                        <Text className="slide-5-product-title">
+                          MetaVerse Design
+                        </Text>
+                      </Stack>
+                    </Box>
                     <Image
                       src={metaLand}
                       width={420}
-                      height={560}
+                      height={360}
                       objectFit="cover"
                       alt="Metaverse Land on SandBox"
+                      className="shopVisuals-image-slide5"
                     />
                   </>
                 )}
@@ -409,7 +418,11 @@ const ShopVisualsCarousel = () => {
               <Box className="blur">
                 <VStack>
                   <Box>
-                    <Text className="slide-5-product-text" textAlign="center">
+                    <Text
+                      className="slide-5-product-text"
+                      textAlign="center"
+                      padding={2}
+                    >
                       Made for web3, MegaNerd
                       <br /> & <i> gaming</i> vibes
                     </Text>
@@ -417,6 +430,29 @@ const ShopVisualsCarousel = () => {
                 </VStack>
               </Box>
             </VStack>
+            <Box className="slide-5-Bottom-div">
+              <HStack>
+                <Button
+                  colorScheme="yellow"
+                  variant="ghost"
+                  isLoading
+                  loadingText="NFT is Loading"
+                >
+                  NFT
+                </Button>
+                <Divider className="meta-divider" />
+                <Box>
+                  <Image
+                    src={sandLogo}
+                    width={45}
+                    height={45}
+                    objectFit="cover"
+                    alt="SandBox Logo"
+                    className="slide-5-sandBox-logo"
+                  />
+                </Box>
+              </HStack>
+            </Box>
           </Box>
         </SwiperSlide>
 

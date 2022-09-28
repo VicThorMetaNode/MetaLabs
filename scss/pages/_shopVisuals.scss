@@ -181,31 +181,38 @@ letter-spacing: 1px;
 .swiper-box-meta {
     background-image: url("../../dist/img/background-blur.png");
     border: 0px;
-    border-radius: var(--border-r1); 
-    
-}
-
-.blur {
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(8px);
-    height: 4rem;
-    width: 100%;
-    
-  
+    border-radius: var(--border-r1);   
 }
 
 .slide-5-product-title-div {
     background-color: #090f17;
     border: 2px solid #f642d5;
     border-radius: var(--border-r4);
-    margin-top: -1rem;
+    margin-top: -0.2rem;
     margin-bottom: 2rem;
 }
 
+.shopVisuals-image-slide5{
+    border-radius: 50px 5px 50px 5px;
+}
+
+.shopVisuals-image-slide5-reverse{
+    border-radius: 15px 75px 15px 75px  ;
+}
+
+
+.blur {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    height: 4.5rem;
+    width: 100%; 
+    margin-top: 1.1rem !important;
+}
 
 .slide-5-product-title {
   font-family: var(--ft-meta-title);
   font-size: var(--font-size-26);
+  text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 600;
   color: #3c6dff;
@@ -213,13 +220,29 @@ letter-spacing: 1px;
 
 .slide-5-product-text {
     font-family: var(--ft-meta-text);
-    font-size: var(--font-size-20);
-    font-weight: 400;
+    font-size: var(--font-size-22);
+    text-transform:capitalize ;
+    font-weight: 300;
     color: #FBE7B2;
 }
 
+.slide-5-Bottom-div {
+margin-top: 2rem;
+}
 
+.slide-5-sandBox-logo {
+    border: 0px ;
+    border-radius: 50%;
+}
 
+.meta-link {
+    color:#00ccb4 ;
+}
+
+.meta-divider {
+    width: 5rem !important;
+    
+}
 
 
 //--------- SLIDE &More ---------
@@ -234,6 +257,6 @@ letter-spacing: 1px;
 //--------- COPYRIGHT MENTION ------
 .shopVisuals-page-copyright-mention {
     font-family: var(--ft-text-jura);
-    font-size: var(--font-size-12);
+    font-size: var(--font-size-14);
     font-weight: 100;
 }
