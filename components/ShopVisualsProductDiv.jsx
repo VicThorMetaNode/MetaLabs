@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-// Import CHAKRA tools
+// Import CHAKRA TOOLS
 import {
   Box,
   Stack,
@@ -13,9 +13,9 @@ import {
   Divider,
 } from "@chakra-ui/react";
 
-// Import Swiper React components
+// IMPORT SWIPER FEATURES
 import { Swiper, SwiperSlide } from "swiper/react";
-// import Swiper styles
+// IMPORT SWIPER CSS
 import "swiper/css";
 
 // IMPORT ICONS
@@ -40,7 +40,7 @@ const ShopVisualsCarousel = () => {
   return (
     <>
       <Swiper
-        className="mySwiper"
+        className="mySwiper products-div"
         slidesPerView={1}
         loop={true}
         centeredSlides={true}

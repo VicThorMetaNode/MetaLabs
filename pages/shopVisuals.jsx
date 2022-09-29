@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-// Import CHAKRA tools
+// IMPORT CHAKRA TOOLS
 import {
   Box,
   Flex,
@@ -13,13 +13,12 @@ import {
   HStack,
 } from "@chakra-ui/react";
 
+//IMPORT COMPONENTS
+import ShopVisualsProductDiv from "../components/ShopVisualsProductDiv";
+
 // IMPORT ICONS
 import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
-
-import ShopVisualsCarousel from "../components/ShopVisualsCarousel";
-
-//IMPORT COMPONENTS
-// import GetYours from "../components/GetYours";
+import ShopVisualsButtons from "../components/ShopVisualsButtons";
 
 //INTERNAL COMPONENTS
 const BigSingleTitleBlack = ({ title }) => (
@@ -139,7 +138,7 @@ const shopVisuals = () => {
 
           <section className="shopVisuals-page-swiper-section">
             <Box>
-              <ShopVisualsCarousel />
+              <ShopVisualsProductDiv />
             </Box>
 
             <Stack
@@ -160,6 +159,49 @@ const shopVisuals = () => {
                 </HStack>
               </Box>
             </Stack>
+
+            <section className="shopVisuals-page-buttons-section">
+              <Box mt={40}>
+                <Stack justifyContent="center" alignItems="center">
+                  <Text
+                    className="shopVisuals-page-components-title"
+                    textAlign="center"
+                    fontSize={["20px", "36px", "46px"]}
+                    px={[6, 10, 10]}
+                  >
+                    {" "}
+                    Button your life up !
+                  </Text>
+                </Stack>
+              </Box>
+              <Box mt={40} mb={20}>
+                <ShopVisualsButtons />
+              </Box>
+              <Stack
+                direction="column"
+                justifyContent="center"
+                alignItems="center"
+              >
+                <Text className="shopVisuals-page-copyright-mention">
+                  tap on the buttons & play with them
+                </Text>
+                <Box className="interior-project-bottom-swipe-box">
+                  <HStack>
+                    <BsArrowLeftShort
+                      className="arrow-swipe-icon"
+                      size="30px"
+                    />
+                    <Text className="interior-project-bottom-swipe-text">
+                      swipe
+                    </Text>
+                    <BsArrowRightShort
+                      className="arrow-swipe-icon"
+                      size="30px"
+                    />
+                  </HStack>
+                </Box>
+              </Stack>
+            </section>
           </section>
         </Box>
       </section>
