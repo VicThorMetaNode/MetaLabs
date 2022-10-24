@@ -2,25 +2,16 @@ import React from "react";
 import Image from "next/image";
 
 // Import CHAKRA tools
-import {
-  Box,
-  Flex,
-  Stack,
-  Text,
-  UnorderedList,
-  ListItem,
-  Button,
-  Container,
-} from "@chakra-ui/react";
+import { Box, Flex, Stack, Text } from "@chakra-ui/react";
 
 //Import IMAGES
-import Dago1 from "../dist/img/dago1.jpg";
-import Dago2 from "../dist/img/dago2.jpg";
-import Dago3 from "../dist/img/dago3.jpeg";
+// import Dago1 from "../dist/img/dago1.jpg";
+// import Dago2 from "../dist/img/dago2.jpg";
+// import Dago3 from "../dist/img/dago3.jpeg";
 import Dago4 from "../dist/img/dago4.jpg";
-import Dago5 from "../dist/img/dago5.jpg";
-import Dago6 from "../dist/img/dago6.jpg";
-import Dago7 from "../dist/img/dago7.jpg";
+// import Dago5 from "../dist/img/dago5.jpg";
+// import Dago6 from "../dist/img/dago6.jpg";
+// import Dago7 from "../dist/img/dago7.jpg";
 
 //IMPORT COMPONENTS
 import GetYours from "../components/GetYours";
@@ -72,8 +63,8 @@ const about = () => {
                 px={[6, 10, 10]}
                 mt={4}
               >
-                Full Stack Web Dev - Online Business Dev - Decentralize
-                Activist.
+                Full Stack Web Dev - <br /> Online Business Dev - <br />{" "}
+                Decentralize Activist.
               </Text>
             </Box>
           </Stack>

@@ -16,7 +16,11 @@ import {
 
 //-------------- Import ICONS --------------
 import { GoThreeBars } from "react-icons/go";
-import { TbBrandLinkedin, TbBrandInstagram } from "react-icons/tb";
+import {
+  TbBrandLinkedin,
+  TbBrandInstagram,
+  TbBrandTwitter,
+} from "react-icons/tb";
 
 const Navbar = () => {
   return (
@@ -101,16 +105,21 @@ const Navbar = () => {
                 </MenuItem>
                 <MenuDivider />
                 <HStack justifyContent="right" alignItems="right" mr={3}>
-                  <Box>
-                    {" "}
-                    <TbBrandLinkedin />
-                  </Box>
-                  {/* <Box>
-                    <TbBrandTiktok />
-                  </Box> */}
-                  <Box>
-                    <TbBrandInstagram />
-                  </Box>
+                  <Link href="https://www.instagram.com/metanodefink/">
+                    <Box>
+                      <TbBrandInstagram fontSize={25} />
+                    </Box>
+                  </Link>
+                  <Link href="https://www.linkedin.com/in/vic-thor-6aa023100">
+                    <Box>
+                      <TbBrandLinkedin fontSize={25} />
+                    </Box>
+                  </Link>
+                  <Link href="https://twitter.com/thor_vee">
+                    <Box>
+                      <TbBrandTwitter fontSize={25} />
+                    </Box>
+                  </Link>
                 </HStack>
               </MenuList>
             </Menu>
