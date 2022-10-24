@@ -212,7 +212,7 @@ const sell = () => {
             <Box>
               <TextBoxLeft
                 upTitle="latest technologies"
-                text="Fully built with MongoDB, ExpressJS, ReactJS, NextJS, NodeJS, SasS & more.
+                text="Fully built with Sanity, Stripe, MongoDB, ExpressJS, NextJS, NodeJS, SasS & more.
                 Using multi-level middleware, encryption protocols to keep everything fully secure and private."
               />
             </Box>

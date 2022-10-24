@@ -57,7 +57,7 @@ const Navbar = () => {
                   justifyContent="right"
                   alignItems="right"
                 >
-                  <Link href="/"> about</Link>
+                  <Link href="/about"> about</Link>
                 </MenuItem>
                 <MenuItem
                   className="menu-item"
