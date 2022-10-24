@@ -63,8 +63,8 @@ const about = () => {
                 px={[6, 10, 10]}
                 mt={4}
               >
-                Full Stack Web Dev - <br /> Online Business Dev - <br />{" "}
-                Decentralize Activist.
+                Full Stack Web Dev - Online Business Dev - Decentralize
+                Activist.
               </Text>
             </Box>
           </Stack>
@@ -89,7 +89,12 @@ const about = () => {
           </Box>
         </section>
         <section className="sell-page-alt-text">
-          <Stack direction="column" justifyContent="center" alignItems="center">
+          <Stack
+            direction="column"
+            justifyContent="center"
+            alignItems="center"
+            mb={20}
+          >
             <Box>
               <Text
                 className="sell-page-subText white"
@@ -100,7 +105,7 @@ const about = () => {
               >
                 Art lover and business development enthusiast, specialized in
                 online-shop websites creation. <br /> <br />
-                After graduating from an English business school in London, I
+                After graduating from a British business school in London, I
                 have worked with young entrepreneurs to help them develop a
                 variety of commercial projects.
                 <br /> <br />
@@ -126,12 +131,9 @@ const about = () => {
             </Box>
           </Stack>
         </section>
-
+        <hr className="footer-hr" />
         <section className="getYours-section">
-          <hr className="about-hr" />
-          <Box>
-            <GetYours />
-          </Box>
+          <GetYours />
         </section>
       </section>
     </>

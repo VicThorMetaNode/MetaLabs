@@ -253,7 +253,7 @@ export default function Home() {
               <TextBoxRight
                 upTitle="ONLINE SHOP"
                 title="Get full ownership of your e-commerce."
-                text="Full access of the source code. Make sales using Paypal and Metamask to get paid in cryptos. Keep your customers data protected.
+                text="Full access of the source code. Make sales using Paypal and Metamask to get paid in cryptos. Keep your customers data protected
           & more."
               />
               <Stack
@@ -282,7 +282,7 @@ export default function Home() {
               <TextBoxLeft
                 upTitle="ONLINE ART"
                 title="Sell your art without censorship or restriction."
-                text="Sell your art on the blockchain and never get your art censored or deleted ever again. Keep your privacy safe. Make sales in cryptos on your private wallet.
+                text="Sell your art on the blockchain and never get your art censored or deleted ever again. Keep your privacy safe. Make sales in cryptos on your private wallet
          & more."
               />
               <Stack
@@ -312,7 +312,7 @@ export default function Home() {
               <TextBoxRight
                 upTitle="only fans"
                 title="Give your audience access to personalized content."
-                text="Get paid monthly by offering your community specific content: private sales, fan art, and more. 
+                text="Get paid monthly by offering your community specific content: private sales, fan art, & more. 
             A simple and efficient way to fund your various projects."
               />
               <Stack

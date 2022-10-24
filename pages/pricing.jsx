@@ -296,7 +296,7 @@ const pricing = () => {
                 bullet1="Building websites from A to Z with any features required"
                 bullet2="From 3-month to 12-month contract renewable every 3 months"
                 bullet3="Payment in monthly instalments"
-                bullet4="You own the source code of the website for the very beginning"
+                bullet4="You own the source code of the website from the very beginning"
                 bullet5="No extra cost or fees"
                 bullet6="Basic SEO included"
                 bullet7="& more"

@@ -44,17 +44,17 @@ const Navbar = () => {
               <MenuButton
                 as={Button}
                 bg="transparent"
-                color="#000000"
+                color="#080808"
                 fontSize={["xl", "4xl", "5xl"]}
                 transition="all 0.2s"
-                _hover={{ color: "#000000" }}
+                _hover={{ color: "#080808" }}
                 _expanded={{ bg: "transparent", color: "#6D6D6D" }}
                 _focus={{ boxShadow: "none" }}
                 mt={[0, 2, 3]}
               >
                 <GoThreeBars />
               </MenuButton>
-              <MenuList bg="#000000" color="#A6A6A6" className="menu-list">
+              <MenuList bg="#080808" color="#A6A6A6" className="menu-list">
                 <MenuItem
                   className="menu-item"
                   _focus={{ bg: "transparent" }}
