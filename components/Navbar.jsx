@@ -54,7 +54,13 @@ const Navbar = () => {
               >
                 <GoThreeBars />
               </MenuButton>
-              <MenuList bg="#080808" color="#A6A6A6" className="menu-list">
+              <MenuList
+                bg="#080808"
+                color="#A6A6A6"
+                className="menu-list"
+                mr={1}
+                mt={1}
+              >
                 <MenuItem
                   className="menu-item"
                   _focus={{ bg: "transparent" }}
@@ -87,6 +93,7 @@ const Navbar = () => {
                 >
                   <Link href="/pricing"> pricing</Link>
                 </MenuItem>
+
                 <MenuItem
                   className="menu-item"
                   _focus={{ bg: "transparent" }}
@@ -102,6 +109,24 @@ const Navbar = () => {
                   alignItems="right"
                 >
                   <Link href="/q&a"> q&a</Link>
+                </MenuItem>
+
+                <MenuDivider />
+                <MenuItem
+                  className="menu-item"
+                  _focus={{ bg: "transparent" }}
+                  justifyContent="right"
+                  alignItems="right"
+                >
+                  <Link href="/technologies"> techno</Link>
+                </MenuItem>
+                <MenuItem
+                  className="menu-item"
+                  _focus={{ bg: "transparent" }}
+                  justifyContent="right"
+                  alignItems="right"
+                >
+                  <Link href="/docs"> docs</Link>
                 </MenuItem>
                 <MenuDivider />
                 <HStack justifyContent="right" alignItems="right" mr={3}>
