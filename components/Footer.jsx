@@ -32,11 +32,12 @@ const Footer = () => {
     <>
       <footer>
         <section className="footer-page">
+          <hr />
           <Stack
             direction="column"
             justifyContent="center"
             alignItems="center"
-            mb={5}
+            mt={5}
           >
             <Box>
               <Box className="cookie-footer-section" mb={4}>

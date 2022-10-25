@@ -107,7 +107,7 @@ const about = () => {
                 online-shop websites creation. <br /> <br />
                 After graduating from a British business school in London, I
                 have worked with young entrepreneurs to help them develop a
-                variety of commercial projects.
+                variety of commercial and personal projects.
                 <br /> <br />
                 As an entrepreneur, I have worked in a vast spectrum of sectors,
                 from the opening of a Danish furniture gallery to the launch of

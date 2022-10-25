@@ -363,7 +363,7 @@ const pricing = () => {
             <Box>
               <TextBoxLeft
                 upTitle="Autonomy"
-                text="Primary mission is to make you autonomous asap.
+                text="The primary mission is to make you autonomous asap.
                 Anything related to your website is yours, with no exception. You hold the source code, domain names, passwords, etc."
               />
             </Box>

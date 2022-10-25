@@ -59,8 +59,7 @@ const get = () => {
                 className="get-page-alertText"
                 textAlign="center"
                 color="#CCFF00"
-                fontWeight={600}
-                fontSize={["13px", "26px", "36px"]}
+                fontSize={["26px", "26px", "36px"]}
                 px={[6, 10, 10]}
                 mt={4}
               >

@@ -1,0 +1,53 @@
+//-------------- SECTIONS -----------
+.qa-question-mapping-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.question-content {
+    background-color: transparent;
+    padding: 1rem 1.5rem;
+    // border: 2px solid yellow;
+    margin-bottom: 2rem;
+    border-radius: var(--border-r025);
+    box-shadow: var(--light-shadow);
+  }
+
+//   .question-container-question {
+
+//   }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question-btn{
+    background: transparent;
+    border-color: transparent;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--dark-shadow);
+    cursor: pointer;
+    margin-left: 1rem;
+    min-width: 2rem;
+}
+
+// .question-container-answer-box{
+//     background-color: yellow;
+// }
+
+// .question-container-answer{
+//     background-color: green;
+// }
+
+
+
+
+
+
+//-------------- TITLES SECTION -------
