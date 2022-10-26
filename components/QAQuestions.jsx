@@ -1,15 +1,7 @@
 import React, { useState } from "react";
 
 // Import CHAKRA tools
-import {
-  Box,
-  Flex,
-  Stack,
-  Text,
-  Button,
-  Container,
-  Spacer,
-} from "@chakra-ui/react";
+import { Box, Flex, Text, Container } from "@chakra-ui/react";
 
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 

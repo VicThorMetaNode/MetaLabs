@@ -1,0 +1,27 @@
+//-------------- TEXT BOX SECTIONS -----------
+// .book-section {
+//     background-color: var(  --clr-bg-drk) !important;
+// }
+
+//MODAL SECTION
+.modal-title {
+font-family: var(--ft-shadow-title) !important;
+}
+
+.modal-text {
+    font-family: var( --ft-shadow-text) !important;
+    font-weight: 200;
+}
+
+
+.modal-text-span {
+    font-family: var( --ft-shadow-text) !important;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+//-------------- TEXT AND TITLES -----------
+.book-title {
+font-weight: 900 !important;
+}

@@ -57,3 +57,24 @@
     padding: var.$padding-y-btn-10 !important;
 }
 
+.btn-book-readMore {
+    background-color: var( --clr-btn-wht) ;
+    color: var(--clr-btn-contact-dark);
+    font-family: var(--ft-text-jura) !important;
+    font-weight: 100;
+    letter-spacing: var(--light-spacing);
+    border: 1px solid var(--clr-btn-contact-dark);
+    border-radius: 5px !important ;
+    padding: var.$padding-y-btn-10 !important;
+}
+
+.btn-getYourBook-yellow {
+    background-color: var(--clr-btn-yellow)  !important;
+    color: var(--clr-txt-blk);
+    font-family: var(--ft-btn-syncopate) ;
+    font-size: var(--font-size-14) ;
+    font-weight: 600;
+    letter-spacing: var(--light-spacing);
+    border-radius: 10px ;
+    padding: var.$padding-y-btn-30;
+}

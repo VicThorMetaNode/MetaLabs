@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Box, Flex, Stack, Text, Button } from "@chakra-ui/react";
 
 // import GetForm from "../components/GetForm";
+import Book from "../components/Book";
 
 // Import PropTypes from 'prop-types'
 import data from "../components/QAData";
@@ -56,7 +57,13 @@ const QandA = () => {
             return <SingleQuestion key={question.id} {...question} />;
           })}
         </Box>
-        <Stack direction="column" justifyContent="center" alignItems="center">
+
+        <Stack
+          direction="column"
+          justifyContent="center"
+          alignItems="center"
+          mb={20}
+        >
           <Box mb={2}>
             <Text
               className="sell-page-subText"
@@ -75,6 +82,9 @@ const QandA = () => {
             </Link>
           </Box>
         </Stack>
+        <Box>
+          <Book />
+        </Box>
       </section>
     </>
   );
