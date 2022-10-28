@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useDisclosure } from "@chakra-ui/react";
+import Link from "next/link";
 
 import Image from "next/image";
 
@@ -104,7 +105,7 @@ const Book = () => {
             </Button>
             <Modal isOpen={isOpen} onClose={onClose}>
               <ModalOverlay />
-              <ModalContent>
+              <ModalContent mx={4} mt={40} className="modal-container">
                 <ModalHeader className="modal-title">
                   Not available yet
                 </ModalHeader>
@@ -115,16 +116,25 @@ const Book = () => {
                     fontSize={["15px", "17px", "20px"]}
                   >
                     {/* <Chrono /> */}
-                    The book will be available from{" "}
+                    The book will be released on{" "}
                     <span className="modal-text-span">february 2023</span>
                   </Text>
                 </ModalBody>
 
                 <ModalFooter>
-                  <Button colorScheme="gray" mr={3} onClick={onClose}>
+                  <Button
+                    colorScheme="gray"
+                    mr={3}
+                    onClick={onClose}
+                    className="btn-getYourBook-modal-close"
+                  >
                     Close
                   </Button>
-                  {/* <Button variant="ghost">Secondary Action</Button> */}
+                  <Link href="/bookPreOrder">
+                    <Button className="btn-getYourBook-modal-preOrder">
+                      pre-order
+                    </Button>
+                  </Link>
                 </ModalFooter>
               </ModalContent>
             </Modal>

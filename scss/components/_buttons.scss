@@ -78,3 +78,27 @@
     border-radius: 10px ;
     padding: var.$padding-y-btn-30;
 }
+
+//BOOK MODAL
+.btn-getYourBook-modal-close {
+    background-color: var( --clr-btn-wht) ;
+    color: var(--clr-btn-contact-dark);
+    font-family: var(--ft-text-jura) !important;
+    font-weight: 100;
+    letter-spacing: var(--light-spacing);
+    border: 1px solid var(--clr-btn-contact-dark);
+    border-radius: 5px !important ;
+    padding: var.$padding-y-btn-10 !important;
+}
+
+.btn-getYourBook-modal-preOrder {
+    background-color: var(--clr-btn-yellow) !important;
+    color: var(--clr-btn-contact-dark);
+    font-family: var(--ft-text-jura) !important;
+    font-weight: 100;
+    letter-spacing: var(--light-spacing);
+    border: 1px solid var(--clr-btn-contact-dark);
+    border-radius: 5px !important ;
+    padding: var.$padding-y-btn-10 !important;
+}
+

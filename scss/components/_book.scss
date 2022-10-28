@@ -4,24 +4,28 @@
 // }
 
 //MODAL SECTION
-.modal-title {
-font-family: var(--ft-shadow-title) !important;
+.modal-container {
+background-color: var(--clr-bg-lgt);
 }
 
-.modal-text {
-    font-family: var( --ft-shadow-text) !important;
-    font-weight: 200;
-}
-
-
-.modal-text-span {
-    font-family: var( --ft-shadow-text) !important;
-    font-weight: 600;
-    text-decoration: underline;
-}
 
 
 //-------------- TEXT AND TITLES -----------
+.modal-title {
+    font-family: var(--ft-shadow-title) !important;
+    }
+    
+    .modal-text {
+        font-family: var( --ft-shadow-text) !important;
+        font-weight: 200;
+    }
+    
+    
+    .modal-text-span {
+        font-family: var( --ft-shadow-text) !important;
+        font-weight: 600;
+        text-decoration: underline;
+    }
 .book-title {
 font-weight: 900 !important;
 }
