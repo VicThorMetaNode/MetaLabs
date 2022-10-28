@@ -130,7 +130,7 @@ const Book = () => {
                   >
                     Close
                   </Button>
-                  <Link href="/bookPreOrder">
+                  <Link href="/preorder-book">
                     <Button className="btn-getYourBook-modal-preOrder">
                       pre-order
                     </Button>
