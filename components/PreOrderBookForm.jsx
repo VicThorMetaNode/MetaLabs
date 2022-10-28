@@ -35,7 +35,7 @@ const PreOrderBookForm = () => {
             <Container
               textAlign="center"
               className="title-span"
-              fontSize="2rem"
+              fontSize="1rem"
               textTransform="uppercase"
               fontWeight="400"
               color="#000000"
@@ -59,7 +59,7 @@ const PreOrderBookForm = () => {
           <Box>
             <Link href="/">
               <Button
-                mt={4}
+                m={4}
                 className="btn-getYours-white"
                 size={["xs", "sm", "xl"]}
               >
@@ -99,10 +99,10 @@ const PreOrderBookForm = () => {
         <FormLabel className="form-label">Book's Version</FormLabel>
         <RadioGroup defaultValue="OnlineShop">
           <HStack spacing="24px">
-            <Radio value="OnlineShop" colorScheme="yellow">
+            <Radio value="virtualbook" colorScheme="yellow">
               Virtual Book
             </Radio>
-            <Radio value="OnlyFans" colorScheme="orange">
+            <Radio value="tangiblebook" colorScheme="orange">
               Tangible Book
             </Radio>
           </HStack>
