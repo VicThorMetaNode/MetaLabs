@@ -194,7 +194,12 @@ const grow = () => {
           </Box>
         </section>
         <section className="sell-page-alt-text">
-          <Stack direction="column" justifyContent="center" alignItems="center">
+          <Stack
+            direction="column"
+            justifyContent="center"
+            alignItems="center"
+            mt={"-10rem"}
+          >
             <Box>
               <TextBoxLeft
                 upTitle="membership"

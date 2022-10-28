@@ -56,11 +56,11 @@ const Book = () => {
               className="sell-page-subText"
               fontSize={["13px", "17px", "17px"]}
             >
-              Every year online sales represent a higher percentage of the sales
-              total in nearly all sectors of the economy, and the art markets
-              are no exception. However, there are few empirical studies showing
-              how online sales and digital technologies are transforming the art
-              markets at a micro-level. <br />
+              "Every year online sales represent a higher percentage of the
+              sales total in nearly all sectors of the economy, and the art
+              markets are no exception. However, there are few empirical studies
+              showing how online sales and digital technologies are transforming
+              the art markets at a micro-level. <br />
               {showMore && (
                 <>
                   <Text
@@ -73,13 +73,15 @@ const Book = () => {
                     improve the communication between systems using artificial
                     intelligence methods of auto-optimization, self-diagnosis
                     and self-configuring, in the spirit of the so-called
-                    Industry 4.0 (Vrchota et al. 2019). However, at least until
-                    now, all this digital technology is being used mainly to
-                    promote global art-world brand names and a celebrity culture
-                    in the arts, creating the Soc. Sci. 2020, 9, 7 2 of 15
-                    illusion that the art markets are democratic and that the
-                    masses are part of it (Zarobell 2017, pp. 212– 15; Milano
-                    2019).
+                    Industry 4.0 (Vrchota et al. 2019).
+                    <br />
+                    <br />
+                    However, at least until now, all this digital technology is
+                    being used mainly to promote global art-world brand names
+                    and a celebrity culture in the arts, creating the Soc. Sci.
+                    2020, 9, 7 2 of 15 illusion that the art markets are
+                    democratic and that the masses are part of it (Zarobell
+                    2017, pp. 212– 15; Milano 2019)".
                   </Text>
                 </>
               )}

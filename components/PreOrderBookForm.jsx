@@ -17,9 +17,9 @@ import {
   Radio,
 } from "@chakra-ui/react";
 
-const Form = () => {
+const PreOrderBookForm = () => {
   //FORM HANDLER on submit
-  const [state, handleSubmit] = useForm("xrgdpvwp");
+  const [state, handleSubmit] = useForm("xyyvnljr");
   if (state.succeeded) {
     return (
       <>
@@ -41,7 +41,7 @@ const Form = () => {
               color="#000000"
             >
               {" "}
-              Message Sent !{" "}
+              Order Sent !{" "}
             </Container>
           </Box>
           <Box p={2}>
@@ -53,7 +53,7 @@ const Form = () => {
               fontWeight="100"
               mb={7}
             >
-              Thank you for contacting me !
+              Thank you for pre-ordering the book !
             </Container>
           </Box>
           <Box>
@@ -96,14 +96,14 @@ const Form = () => {
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
 
-        <FormLabel className="form-label">Project's Type</FormLabel>
+        <FormLabel className="form-label">Book's Version</FormLabel>
         <RadioGroup defaultValue="OnlineShop">
           <HStack spacing="24px">
-            <Radio value="OnlineShop" colorScheme="pink">
-              Online Shop
+            <Radio value="OnlineShop" colorScheme="yellow">
+              Virtual Book
             </Radio>
-            <Radio value="OnlyFans" colorScheme="green">
-              OnlyFans Clone
+            <Radio value="OnlyFans" colorScheme="orange">
+              Tangible Book
             </Radio>
           </HStack>
         </RadioGroup>
@@ -122,17 +122,16 @@ const Form = () => {
         />
 
         <Button
-          className="btn-getYours-white"
+          className="btn-getYourBook-modal-preOrder"
           size={["xs", "sm", "xl"]}
-          m={3}
           type="submit"
           disabled={state.submitting}
         >
-          SEND
+          Order now
         </Button>
       </form>
     </>
   );
 };
 
-export default Form;
+export default PreOrderBookForm;

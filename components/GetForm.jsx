@@ -110,8 +110,12 @@ const GetForm = () => {
         <FormLabel className="form-label">Project's Type</FormLabel>
         <RadioGroup defaultValue="OnlineShop">
           <HStack spacing="24px">
-            <Radio value="OnlineShop">Online-Shop</Radio>
-            <Radio value="OnlyFans">OnlyFans Clone</Radio>
+            <Radio value="OnlineShop" colorScheme="gray">
+              Online-Shop
+            </Radio>
+            <Radio value="OnlyFans" colorScheme="gray">
+              OnlyFans Clone
+            </Radio>
           </HStack>
         </RadioGroup>
 
@@ -120,10 +124,18 @@ const GetForm = () => {
         </FormLabel>
         <RadioGroup defaultValue="0">
           <HStack spacing="24px">
-            <Radio value="0">0</Radio>
-            <Radio value="4">4</Radio>
-            <Radio value="8">8</Radio>
-            <Radio value="10">10</Radio>
+            <Radio value="0" colorScheme="gray">
+              0
+            </Radio>
+            <Radio value="4" colorScheme="teal">
+              4
+            </Radio>
+            <Radio value="8" colorScheme="purple">
+              8
+            </Radio>
+            <Radio value="10" colorScheme="red">
+              10
+            </Radio>
           </HStack>
         </RadioGroup>
 
@@ -132,9 +144,15 @@ const GetForm = () => {
         </FormLabel>
         <RadioGroup defaultValue="0">
           <HStack spacing="24px">
-            <Radio value="0">0</Radio>
-            <Radio value="-6">-6</Radio>
-            <Radio value="+10">+10</Radio>
+            <Radio value="0" colorScheme="gray">
+              0
+            </Radio>
+            <Radio value="-6" colorScheme="purple">
+              -6
+            </Radio>
+            <Radio value="+10" colorScheme="red">
+              +10
+            </Radio>
           </HStack>
         </RadioGroup>
 
