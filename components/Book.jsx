@@ -25,6 +25,8 @@ import {
 //Import IMAGES
 import BookNode from "../dist/img/book.jpg";
 
+import PreOrderBookForm from "../components/PreOrderBookForm";
+
 const Book = () => {
   //toggle const
   const [showMore, setShowMore] = useState(false);
@@ -121,6 +123,11 @@ const Book = () => {
                     The book will be released on{" "}
                     <span className="modal-text-span">february 2023</span>
                   </Text>
+                  <Stack justifyContent="center" alignItems="center">
+                    <Box mt={10} mx={2} p={10} className="form-box">
+                      <PreOrderBookForm />
+                    </Box>
+                  </Stack>
                 </ModalBody>
 
                 <ModalFooter>
@@ -134,7 +141,7 @@ const Book = () => {
                   </Button>
                   <Link href="/preorder-book">
                     <Button className="btn-getYourBook-modal-preOrder">
-                      pre-order
+                      The Book
                     </Button>
                   </Link>
                 </ModalFooter>

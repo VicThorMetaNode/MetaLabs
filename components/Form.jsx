@@ -59,7 +59,7 @@ const Form = () => {
           <Box>
             <Link href="/">
               <Button
-                mt={4}
+                m={4}
                 className="btn-getYours-white"
                 size={["xs", "sm", "xl"]}
               >
