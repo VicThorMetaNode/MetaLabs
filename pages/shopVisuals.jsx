@@ -214,7 +214,7 @@ const shopVisuals = () => {
                     px={[6, 10, 10]}
                   >
                     {" "}
-                    Menu Tool Bar.
+                    ToolBar Inspirations.
                   </Text>
                 </Stack>
               </Box>

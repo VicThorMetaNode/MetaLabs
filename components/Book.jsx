@@ -123,7 +123,7 @@ const Book = () => {
                     The book will be released on{" "}
                     <span className="modal-text-span">february 2023</span>
                   </Text>
-                  <Stack justifyContent="center" alignItems="center">
+                  <Stack >
                     <Box mt={10} mx={2} p={10} className="form-box">
                       <PreOrderBookForm />
                     </Box>

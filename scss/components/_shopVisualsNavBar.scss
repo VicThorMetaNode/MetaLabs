@@ -1,0 +1,44 @@
+//-------------- SWIPER SECTION -----------
+.navbar-swiper {
+    // width: 24rem;
+     height: 17rem; 
+}
+.shopVisuals-navbar-swiper-box {
+    margin:  0px 2rem  2rem 2rem;
+    padding: 2rem;
+}
+
+//-------------- TOOLBAR 1-----------
+.toolbar-basic-title {
+    font-family: var(--ft-text-jura);
+}
+.toolbar-basic {
+    font-family: var(--ft-text-jura);
+    color: var(--color-greeny) !important;
+    font-weight: 600;
+}
+
+//-------------- TOOLBAR 2 -----------
+.toolbar-img-menu-title {
+    font-family: var(--ft-meta-text);
+}
+.toolbar-img-title {
+font-family: var(--ft-meta-title);
+font-weight: 400;
+font-size: 17px;
+}
+
+.red-arrival{
+    color: var(--color-orange-red) ;
+}
+
+.toolbar-img {
+    border-radius: 50% !important;
+   
+}
+
+//-------------- TOOLBAR 3 -----------
+.toolbar-burger-emoji{
+    font-family: var(--ft-neon-title);
+    font-size: 20px;
+}
