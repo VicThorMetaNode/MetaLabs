@@ -1,14 +1,75 @@
 //-------------- SWIPER SECTION -----------
 .navbar-swiper {
-    // width: 24rem;
-     height: 17rem; 
+    width: 24rem;
+    height: 36.5rem; 
 }
 .shopVisuals-navbar-swiper-box {
-    margin:  0px 2rem  2rem 2rem;
-    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
 }
 
-//-------------- TOOLBAR 1-----------
+//-------------- TOOLBAR 1 TERROR -----------
+.terror-container {
+    background-image: url(../../dist/img/webp/cover.webp) ;
+    background-position: center;
+    width: 24rem;
+    height: 36.5rem; 
+
+}
+
+.terror-navbar {
+   display: flex;
+   justify-content: right;
+   padding: 1.2rem;
+}
+
+.terror-text-container {
+ display: flex;
+ justify-content: center;
+ margin-top: 7rem;
+ padding: 1.2rem;
+    h3 {
+        font-family: var(--ft-meta-title);
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: var(--font-size-25) !important;
+        color: aliceblue;
+    }
+    h4 {
+        font-family: var(--ft-text-jura);
+        font-weight: 400;
+        font-size: var(--font-size-25);
+        padding: 0.5rem;
+        background-color: pink;
+        border-radius: 20px;
+        color: black;
+        text-align: center;
+    }
+    h2 {
+        font-family: var(--ft-meta-title);
+        text-transform:capitalize;
+        font-weight: 400;
+        font-size: var(--font-size-30);
+        color: aliceblue;
+        padding: 0 1.2rem 0 0;
+        span {
+            font-weight: 600 ;
+        }
+    }
+    h5 {
+       
+        font-family: var(--ft-meta-title);
+        text-transform:capitalize;
+        font-weight: 600;
+        font-size: var(--font-size-23);
+        color: pink;
+        span {
+            text-transform: uppercase;
+        }
+    }
+}
+
 .toolbar-basic-title {
     font-family: var(--ft-text-jura);
 }
@@ -18,7 +79,102 @@
     font-weight: 600;
 }
 
-//-------------- TOOLBAR 2 -----------
+//-------------- TOOLBAR 2 NIX ARTISTS -----------
+
+.wix-container{
+    background-image: url(../../dist/img/webp/grad.webp) ;
+    background-repeat: repeat;
+    background-size: 250px;
+    width: 24rem;
+    height: 36.5rem; 
+}
+
+.wix-navbar {
+    display: flex;
+   justify-content: left;
+   padding: 0.80rem;
+}
+
+.wix-text-container {
+//     display: flex;
+//  justify-content: center;
+ padding: 1.2rem;
+ display: block;
+ justify-content: left;
+ h4 {
+ font-family: var( --ft-neon-title);
+ color: mediumslateblue;
+ font-weight: 600;
+ font-size: var(--font-size-25);
+ }
+ h5 {
+ font-family: var( --ft-neon-title);
+ text-transform: uppercase;
+ color: aliceblue ;
+ font-weight: 400;
+ font-size: var(--font-size-20);
+ background-color: violet;
+ border-radius: 25px;
+ text-align: center;
+ padding: 0 1.2rem 0 1.2rem ;
+ width: fit-content;
+ }
+ h2 {
+    font-family: var(--ft-neon-text);
+    font-size: var(--font-size-30);
+    color: aliceblue;
+    padding-right: 2rem;
+ }
+}
+
+
+.wix-artists-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+   
+}
+
+.yolo-artist-box {
+    padding-left: 1.2rem;
+    h4 {
+    font-family: var( --ft-neon-title);
+    color: mediumslateblue;
+    font-weight: 600;
+    font-size: var(--font-size-17);
+    text-transform: capitalize;
+    }
+   h5 {
+    font-family: var( --ft-neon-title);
+    color: aliceblue;
+    font-weight: 400;
+    font-size: var(--font-size-14);
+    padding-right: 1.3rem;
+   }
+}
+
+.walk-artist-box {
+    padding-right: 1.2rem;
+    h4 {
+        font-family: var( --ft-neon-title);
+        color: mediumslateblue;
+        font-weight: 600;
+        font-size: var(--font-size-17);
+        text-transform: capitalize;
+        }
+       h5 {
+        font-family: var( --ft-neon-title);
+        color: aliceblue;
+        font-weight: 400;
+        font-size: var(--font-size-14);
+        padding-right: 1.3rem;
+     
+       }
+}
+
+.wix-menuList {
+    background-color:  mediumslateblue;
+}
 .toolbar-img-menu-title {
     font-family: var(--ft-meta-text);
 }
@@ -37,8 +193,127 @@ font-size: 17px;
    
 }
 
+.wix-bottom-date {
+    display: flex;
+    justify-content: center;
+    
+    h3 {
+        font-family: var(--ft-neon-text);
+        text-transform:capitalize;
+        font-weight: 600;
+        font-size: var(--font-size-23);
+        color: pink;
+        span {
+            text-transform: uppercase;
+        }
+        
+}
+}
+
+
 //-------------- TOOLBAR 3 -----------
+.blockchain-container {
+    background-image: url(../../dist/img/webp/space.webp) ;
+    background-repeat: repeat;
+    background-size: 400px;
+    width: 24rem;
+    height: 36.5rem; 
+}
+
+// .blockchain-box {
+
+// }
+
+.blockchain-navbar {
+    display: flex;
+    align-items: left;
+    padding: 1.2rem;
+}
+
+.blockchain-text-container {
+    padding: 1.2rem;
+    display: flex;
+   
+}
+
+.blockchain-text-box-right {
+    display: block;
+    text-align: left;
+    
+    color: aliceblue;
+    h2 {
+        font-family: var(--ft-title-space);
+       
+        font-weight: 600;
+        font-size: var(--font-size-28);
+        span {
+            color: #FF00CC;
+            font-weight: 900;
+        }
+    }
+    h4 {
+        font-family: var(--ft-subtitle-istok);
+      text-transform: lowercase;
+        font-weight: 200;
+        font-size: var(--font-size-15);
+        padding-right: 1.3rem;
+       
+    }
+}
+
+.blockchain-text-box-left {
+  margin-top: 12rem;
+    h5 {
+        font-family: var(--ft-title-space);
+        text-transform:capitalize;
+        font-weight: 600;
+        font-size: var(--font-size-17);
+        background-color: #FF00CC;
+        white-space: nowrap;
+        padding: 0 1rem 0 1rem;
+    }
+}
+
+// .blockchain-icons-container {
+    
+    
+// }
+
+.blockchain-icons-box {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.icon-blockchain {
+    flex: 1;
+    width: 100%;
+    height: 5rem;
+    padding: 1rem;
+    margin: 0 0.9rem 0 0.9rem;
+    border: 2px dotted #FF00CC;
+    
+    // background-color: aliceblue; opacity: 0.2;
+    // z-index: 0;
+    h3 {
+        color: aquamarine; opacity: 1;
+        font-family: var(--ft-subtitle-istok);
+        font-size: var(--font-size-17);
+        text-transform: capitalize;
+        font-weight: 800;
+        text-align: center;
+        // z-index: 4;
+    }
+        }
+
+      
+
+
+
+
+
+
 .toolbar-burger-emoji{
-    font-family: var(--ft-neon-title);
+    font-family: var(--ft-title-space);
     font-size: 20px;
 }
