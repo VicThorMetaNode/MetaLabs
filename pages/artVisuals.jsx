@@ -56,7 +56,7 @@ const artVisuals = () => {
                 fontSize={["26px", "46px", "56px"]}
                 px={[2, 10, 10]}
               >
-                Fully customized online shop.
+                Fully customized art shop.
               </Text>
             </Box>
             <Box>
@@ -67,7 +67,7 @@ const artVisuals = () => {
                 px={[6, 10, 10]}
                 mt={2}
               >
-                From minimalist layouts to more unusual designs.
+                Create your own web identity.
               </Text>
             </Box>
           </Stack>
@@ -81,8 +81,8 @@ const artVisuals = () => {
               justifyContent="center"
               alignItems="center"
             >
-              <Text className="shopVisuals-page-copyright-mention">
-                tap on the picture for copyright & source links
+              <Text className="shopVisuals-page-copyright-mention" mt={2}>
+                Design Inspirations.
               </Text>
               <Box className="interior-project-bottom-swipe-box">
                 <HStack>

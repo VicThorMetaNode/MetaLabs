@@ -75,7 +75,7 @@ const ArtVisualsDiv = () => {
 
         <SwiperSlide className="shopVisuals-navbar-swiper-box">
           <Box className="avatar-reverse-container">
-            <Stack direction="row" p={2}>
+            <Stack direction="row" pt={4} px={2}>
               <Button className="btn-date-avatar">09 - 11 DEC</Button>
               <Spacer />
               <Button className="btn-online-avatar">Online</Button>
@@ -99,7 +99,7 @@ const ArtVisualsDiv = () => {
                 <Stack direction="row">
                   <Button className="btn-buy-avatar">Buy AVATAR</Button>
 
-                  <Button className="btn-browse-avatar">Browse Avatar</Button>
+                  <Button className="btn-browse-avatar">Browse</Button>
                 </Stack>
               </Box>
             </Box>

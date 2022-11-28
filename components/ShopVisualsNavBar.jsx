@@ -15,8 +15,7 @@ import {
   Spacer,
 } from "@chakra-ui/react";
 
-//IMPORT IMGA
-
+//IMPORT IMG
 import yolo from "../dist/img/webp/yolo.webp";
 import walk from "../dist/img/webp/walk.webp";
 import rec from "../dist/img/gif/8Etj.gif";

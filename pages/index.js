@@ -299,7 +299,7 @@ export default function Home() {
                       Read More
                     </Button>
                   </Link>
-                  <Link href="/shopVisuals">
+                  <Link href="/artVisuals">
                     <Button className="btn-visuals" size={["xs", "sm", "xl"]}>
                       Visuals
                     </Button>
