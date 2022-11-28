@@ -323,11 +323,11 @@ export default function Home() {
                 mr={6}
               >
                 <ButtonGroup gap={[2, 4]}>
-                  <Link href="/shopVisuals">
+                  {/* <Link href="/shopVisuals">
                     <Button className="btn-visuals" size={["xs", "sm", "xl"]}>
                       Visuals
                     </Button>
-                  </Link>
+                  </Link> */}
                   <Link href="/grow">
                     <Button className="btn-readMore" size={["xs", "sm", "xl"]}>
                       Read More

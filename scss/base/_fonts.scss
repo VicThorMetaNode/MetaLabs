@@ -13,6 +13,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;500;600;700;800&display=swap');
+
 /*----------------------------- FONTS FAMILY ------------------------*/
 :root {
   /*----------- MAIN ---------*/
@@ -44,5 +50,13 @@
     --ft-meta-title: 'PT Sans Narrow', sans-serif;
     --ft-meta-text: 'Raleway', sans-serif;
 
+        //--------- slide 5 ---------
+        --ft-do-title: 'Do Hyeon', sans-serif;
+        --ft-do-text: 'Podkova', serif;
+
+        
+        //--------- slide 6 ---------
+        --ft-avatar-title: 'Oxanium', cursive;
+        
 }
 

@@ -5,22 +5,13 @@ import Image from "next/image";
 import {
   Box,
   Stack,
-  Text,
   Button,
-  Flex,
-  Icon,
-  VStack,
-  HStack,
   Divider,
   IconButton,
   Menu,
   MenuButton,
   MenuList,
   MenuItem,
-  MenuItemOption,
-  MenuGroup,
-  MenuOptionGroup,
-  MenuDivider,
   Spacer,
 } from "@chakra-ui/react";
 
@@ -28,7 +19,8 @@ import {
 
 import yolo from "../dist/img/webp/yolo.webp";
 import walk from "../dist/img/webp/walk.webp";
-import rec from "../dist/img/webp/8Etj.gif";
+import rec from "../dist/img/gif/8Etj.gif";
+import avatar from "../dist/img/gif/RarityGold.gif";
 
 // IMPORT SWIPER FEATURES
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -173,7 +165,7 @@ const ShopVisualsNavBar = () => {
             <Box className="wix-text-container">
               <h4>Nix</h4>
               <h5>live auction</h5>
-              <h2>The best of two art's worlds</h2>
+              <h2>The best of two worlds of art</h2>
             </Box>
             <Box className="wix-artists-container">
               <Box className="yolo-artist-box">
@@ -342,6 +334,40 @@ const ShopVisualsNavBar = () => {
             </Box>
           </Box>
         </SwiperSlide>
+
+        {/* <SwiperSlide className="shopVisuals-navbar-swiper-box">
+          <Box className="avatar-container">
+            <Box className="avatar-navbar">
+              <input type="checkbox" id="active" />
+              <label for="active" class="avatar-menu-btn">
+                <GiHamburgerMenu />
+              </label>
+              <div class="wrapper">
+                <ul>
+                  <li>
+                    <p>About</p>
+                  </li>
+                  <li>
+                    <p>Mint</p>
+                  </li>
+                  <li>
+                    <p>Shop</p>
+                  </li>
+                  <li>
+                    <p>Gallery</p>
+                  </li>
+                  <li>
+                    <p>Feedback</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="content">
+                <div class="title">Fullscreen Overlay Navigation Bar</div>
+                <p>with HTML & CSS Neon Effect</p>
+              </div>
+            </Box>
+          </Box>
+        </SwiperSlide> */}
       </Swiper>
     </>
   );

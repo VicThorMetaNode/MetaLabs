@@ -27,7 +27,7 @@
 .terror-text-container {
  display: flex;
  justify-content: center;
- margin-top: 7rem;
+ margin-top: 7.5rem;
  padding: 1.2rem;
     h3 {
         font-family: var(--ft-meta-title);
@@ -35,16 +35,20 @@
         font-weight: 600;
         font-size: var(--font-size-25) !important;
         color: aliceblue;
+        margin-bottom: 1.5rem;
     }
     h4 {
         font-family: var(--ft-text-jura);
-        font-weight: 400;
-        font-size: var(--font-size-25);
-        padding: 0.5rem;
+        font-weight: 900;
+        letter-spacing: 0.1rem;
+        font-size: var(--font-size-20);
+        padding: 0.2rem 0.7rem 0.2rem 0.7rem;
         background-color: pink;
         border-radius: 20px;
         color: black;
         text-align: center;
+        white-space: nowrap;
+        width:max-content;
     }
     h2 {
         font-family: var(--ft-meta-title);
@@ -64,6 +68,7 @@
         font-weight: 600;
         font-size: var(--font-size-23);
         color: pink;
+        letter-spacing: 0.2rem;
         span {
             text-transform: uppercase;
         }
@@ -90,14 +95,15 @@
 }
 
 .wix-navbar {
-    display: flex;
-   justify-content: left;
+   display: flex;
+   justify-content: right;
    padding: 0.80rem;
 }
 
 .wix-text-container {
 //     display: flex;
 //  justify-content: center;
+margin-top: -1.7rem;
  padding: 1.2rem;
  display: block;
  justify-content: left;
@@ -105,7 +111,8 @@
  font-family: var( --ft-neon-title);
  color: mediumslateblue;
  font-weight: 600;
- font-size: var(--font-size-25);
+ font-size: var(--font-size-26);
+ margin-bottom: 1rem;
  }
  h5 {
  font-family: var( --ft-neon-title);
@@ -118,12 +125,14 @@
  text-align: center;
  padding: 0 1.2rem 0 1.2rem ;
  width: fit-content;
+ margin-bottom: 1rem;
  }
  h2 {
     font-family: var(--ft-neon-text);
     font-size: var(--font-size-30);
     color: aliceblue;
-    padding-right: 2rem;
+    
+    padding-right: 0rem;
  }
 }
 
@@ -196,7 +205,7 @@ font-size: 17px;
 .wix-bottom-date {
     display: flex;
     justify-content: center;
-    
+    margin-top: -0.8rem;
     h3 {
         font-family: var(--ft-neon-text);
         text-transform:capitalize;
@@ -211,7 +220,7 @@ font-size: 17px;
 }
 
 
-//-------------- TOOLBAR 3 -----------
+//-------------- TOOLBAR 3 BLOCKCHAIN -----------
 .blockchain-container {
     background-image: url(../../dist/img/webp/space.webp) ;
     background-repeat: repeat;
@@ -306,14 +315,139 @@ font-size: 17px;
     }
         }
 
-      
-
-
-
-
-
-
 .toolbar-burger-emoji{
     font-family: var(--ft-title-space);
     font-size: 20px;
 }
+
+
+
+
+//-------------- TOOLBAR 4 AVATAR-----------
+.avatar-container {
+    background-image: url(../../dist/img/webp/drop.webp) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24rem;
+    height: 36.5rem; 
+}
+
+.avatar-navbar {
+
+}
+
+.avatar-menu-btn {
+    position: absolute;
+    z-index: 2;
+    right: 20px;
+    /* left: 20px; */
+    top: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    background: #000;
+}
+#active:checked ~ .menu-btn{
+    color: #fff;
+  }
+  #active:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+//   clip-path: circle(25px at calc(100% - 45px) 45px);
+  transition: all 0.3s ease-in-out;
+}
+#active:checked ~ .wrapper{
+    clip-path: circle(75%);
+  }
+
+  .wrapper ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+  }
+  .wrapper ul li{
+    margin: 15px 0;
+  }
+  .wrapper ul li p{
+    color: none;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 5px 30px;
+    color: #fff;
+    border-radius: 50px;
+    background: #000;
+    position: relative;
+    line-height: 50px;
+    transition: all 0.3s ease;
+  }
+  .wrapper ul li p:after{
+    position: absolute;
+    content: "";
+    background: #fff;
+     background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
+    width: 104%;
+    height: 110%;
+    left: -2%;
+    top: -5%; /* if the font is 'Oswald'*/
+    border-radius: 50px;
+    transform: scaleY(0);
+    z-index: -1;
+    animation: rotate 1.5s linear infinite;
+    transition: transform 0.3s ease;
+  }
+  .wrapper ul li p:hover:after{
+    transform: scaleY(1);
+  }
+  .wrapper ul li p:hover{
+    color: #fff;
+  }
+
+  .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    text-align: center;
+    width: 100%;
+    color: #202020;
+  }
+  .content .title{
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .content p{
+    font-size: 35px;
+    font-weight: 600;
+  }
+  input[type="checkbox"]{
+    display: none;
+  }
+
+  @keyframes rotate {
+    0%{
+      filter: hue-rotate(0deg);
+    }
+    100%{
+      filter: hue-rotate(360deg);
+    }
+  }
+  
