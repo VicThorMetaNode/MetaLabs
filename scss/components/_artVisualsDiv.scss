@@ -201,6 +201,14 @@
 }
 
  //-------------- DIV 3 AUDIO -----------
+ @-webkit-keyframes Font {
+    0% {color: var(--color-ant-dark);}
+    20% {color: var(--color-algopulse);}
+    40% {color: var(--color-outer-space-75);}
+    60% {color: var(--color-amethyst);}
+    80% {color: var(--color-cadet);}
+    100% {color: var(--color-wolf);}
+}
  .audio-container {
      width: 24rem;
      height: 100%; 
@@ -289,6 +297,7 @@ h3 {
     font-weight: 600;
     text-transform:capitalize;
     color: var(--color-algopulse);
+    -webkit-animation:Font 5s infinite alternate;
     span {
       text-transform: lowercase;  
     }
@@ -366,12 +375,14 @@ h5 {
     font-weight: 200 !important;
     text-transform:capitalize;
     color: var(--color-algopulse);
+    
 }
 
 .play {
     background-color: var(--color-yellow-audio) !important;
     margin-right: 1rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    // animation: float 8s ease-in-out infinite;
 }
 
 .shop {
