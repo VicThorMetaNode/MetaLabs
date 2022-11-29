@@ -1,70 +1,76 @@
 /* import-FONTS FAMILY */
-@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jura:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=Syncopate:wght@400;700&family=Unica+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jura:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=Syncopate:wght@400;700&family=Unica+One&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400&family=Six+Caps&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300;400&family=Six+Caps&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Krub:wght@200&family=Rubik+Mono+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Krub:wght@200&family=Rubik+Mono+One&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Kdam+Thmor+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Kdam+Thmor+Pro&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&family=Red+Hat+Mono:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&family=Red+Hat+Mono:wght@300&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;500;600;700;800;900&family=PT+Sans+Narrow:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;500;600;700;800;900&family=PT+Sans+Narrow:wght@400;700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;500;600;700;800&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@100;200;300;400;500;600;700;800;900&family=Erica+One&family=Genos:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Redacted+Script:wght@300;400;700&display=swap');
 
 /*----------------------------- FONTS FAMILY ------------------------*/
 :root {
   /*----------- MAIN ---------*/
-  --ft-title-space: 'Space Grotesk', sans-serif;
-  --ft-subtitle-istok: 'Istok Web', sans-serif;
-  --ft-keyword-unica: 'Unica One', cursive;
-  --ft-text-jura: 'Jura', sans-serif;
-  --ft-btn-syncopate: 'Syncopate', sans-serif;
+  --ft-title-space: "Space Grotesk", sans-serif;
+  --ft-subtitle-istok: "Istok Web", sans-serif;
+  --ft-keyword-unica: "Unica One", cursive;
+  --ft-text-jura: "Jura", sans-serif;
+  --ft-btn-syncopate: "Syncopate", sans-serif;
 
   /*----------- VISUAL SLIDES ---------*/
   //--------- slide 1 ---------
-  --ft-minimalist-title: 'Six Caps', sans-serif;
-  --ft-minimalist-text: 'Assistant', sans-serif;
+  --ft-minimalist-title: "Six Caps", sans-serif;
+  --ft-minimalist-text: "Assistant", sans-serif;
 
   //--------- slide 2 ---------
-  --ft-shadow-title: 'Rubik Mono One', sans-serif;
-  --ft-shadow-text: 'Krub', sans-serif;
+  --ft-shadow-title: "Rubik Mono One", sans-serif;
+  --ft-shadow-text: "Krub", sans-serif;
 
   //--------- slide 3 ---------
-  --ft-neon-title: 'Kdam Thmor Pro', sans-serif;
-  --ft-neon-text: 'Odibee Sans', cursive;
+  --ft-neon-title: "Kdam Thmor Pro", sans-serif;
+  --ft-neon-text: "Odibee Sans", cursive;
 
-    //--------- slide 4 ---------
-    --ft-acid-title: 'Montserrat', sans-serif;
-    --ft-acid-text: 'Red Hat Mono', monospace;
+  //--------- slide 4 ---------
+  --ft-acid-title: "Montserrat", sans-serif;
+  --ft-acid-text: "Red Hat Mono", monospace;
 
-    //--------- slide 5 ---------
-    
-    --ft-meta-title: 'PT Sans Narrow', sans-serif;
-    --ft-meta-text: 'Raleway', sans-serif;
+  //--------- slide 5 ---------
 
-        //--------- slide 5 ---------
-        --ft-do-title: 'Do Hyeon', sans-serif;
-        --ft-do-text: 'Podkova', serif;
+  --ft-meta-title: "PT Sans Narrow", sans-serif;
+  --ft-meta-text: "Raleway", sans-serif;
 
-        
-        //--------- slide 6 ---------
-        --ft-avatar-title: 'Oxanium', cursive;
+  //--------- slide 5 ---------
+  --ft-do-title: "Do Hyeon", sans-serif;
+  --ft-do-text: "Podkova", serif;
 
-        //--------- slide  ---------
-        --ft-audio-title: 'JetBrains Mono', monospace;
-        --ft-audio-tag: 'Thasadith', sans-serif;
-        
+  //--------- slide 6 ---------
+  --ft-avatar-title: "Oxanium", cursive;
+
+  //--------- slide 7 ---------
+  --ft-audio-title: "JetBrains Mono", monospace;
+  --ft-audio-tag: "Thasadith", sans-serif;
+
+  //--------- slide 7 ---------
+  --ft-anime-title: 'Big Shoulders Inline Display', cursive;
+  --ft-anime-text: 'Erica One', cursive;
+  --ft-anime-tag: 'Genos', sans-serif;
+  --ft-anime-subtext: 'Noto Sans JP', sans-serif;
+  --ft-anime-subtitle: 'Redacted Script', cursive;
 }
-

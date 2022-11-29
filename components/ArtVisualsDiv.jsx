@@ -18,6 +18,9 @@ import {
 //IMPORT IMG
 import pec from "../dist/img/webp/pec.webp";
 import avatarReverse from "../dist/img/gif/RarityGold.gif";
+import rengaLogo from "../dist/img/webp/renga.webp";
+import rengaRobot from "../dist/img/webp/robot-renga.webp";
+import rengaBg from "../dist/img/webp/renga-background.webp";
 
 // IMPORT SWIPER FEATURES
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -164,6 +167,71 @@ const ArtVisualsDiv = () => {
                 <TbPaperBag className="audio-logo" /> Shop Now
               </Button>
             </Box>
+          </Box>
+        </SwiperSlide>
+
+        <SwiperSlide className="shopVisuals-navbar-swiper-box">
+          <Box className="anime-container">
+            <a href="https://opensea.io/assets/ethereum/0x394e3d3044fc89fcdd966d3cb35ac0b32b0cda91/1239">
+              <Box className="anime-img-container">
+                <Image
+                  width="384"
+                  height="438"
+                  objectFit="cover"
+                  src={rengaRobot}
+                  alt="renga artist"
+                />
+              </Box>
+            </a>
+
+            <Flex>
+              <Box className="vertical">
+                <h3>ること</h3>
+              </Box>
+              <Box className="anime-multi-box">
+                <Stack direction="column">
+                  <Box className="anime-title-box">
+                    <Box>
+                      <h1>RENGA #1239</h1>
+                      <h2>handcrafted collection </h2>
+                    </Box>
+                  </Box>
+                  <Box className="anime-multi-sub-box">
+                    <Stack direction="row" alignItems="stretch" spacing={0}>
+                      <Box className="anime-box">
+                        <p>
+                          <i>べての構成</i>
+                        </p>
+                      </Box>
+                      <Box className="anime-box">
+                        <p>
+                          <i>のすべて#19</i>
+                        </p>
+                      </Box>
+                      <Box className="anime-box">
+                        <p>
+                          <i>きない権利</i>
+                        </p>
+                      </Box>
+                    </Stack>
+                  </Box>
+                </Stack>
+              </Box>
+              <Spacer />
+
+              <Box className="anime-multi-sub-box-logo">
+                <a href="https://opensea.io/collection/renga?search[sortAscending]=false&search[sortBy]=UNIT_PRICE">
+                  <Image
+                    width="150px"
+                    height="220px"
+                    objectFit="fill"
+                    quality={70}
+                    src={rengaLogo}
+                    alt="renga artist"
+                  />
+                </a>
+              </Box>
+            </Flex>
           </Box>
         </SwiperSlide>
       </Swiper>
