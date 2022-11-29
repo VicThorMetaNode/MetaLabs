@@ -26,6 +26,8 @@ import "swiper/css";
 
 //IMPORT ICONS
 import { FaUncharted } from "react-icons/fa";
+import { BsFillPlayFill } from "react-icons/bs";
+import { TbPaperBag } from "react-icons/tb";
 
 const ArtVisualsDiv = () => {
   return (
@@ -102,6 +104,65 @@ const ArtVisualsDiv = () => {
                   <Button className="btn-browse-avatar">Browse</Button>
                 </Stack>
               </Box>
+            </Box>
+          </Box>
+        </SwiperSlide>
+
+        <SwiperSlide className="shopVisuals-navbar-swiper-box">
+          <Box className="audio-container">
+            <Box className="audio-img-background-container">
+              <h5>23.11.2023 ( MON ) 2400 - 0100 (HKT)</h5>
+              <Box className="audio-text-container">
+                <Box className="audio-text-container-1">
+                  <h4>on this day</h4>
+                  <h2>2022</h2>
+                </Box>
+                <Box className="audio-text-container-2">
+                  <h3>Coping Mechanisms w/ Korea Town Acid</h3>
+                </Box>
+              </Box>
+            </Box>
+
+            <Box className="audio-text-box">
+              <h2>
+                Coping Mechanisms <span>w/ </span> Korea Town Acid
+              </h2>
+              <h5>
+                <span>airdate</span> : 23/11/2022
+              </h5>
+            </Box>
+
+            <Box className="audio-tags-box">
+              <article className="tag-item tag-black">
+                <p>
+                  <span>Tags:</span>
+                </p>
+              </article>
+              <article className="tag-item">
+                <p>acid</p>
+              </article>
+              <article className="tag-item">
+                <p>avant-Garde</p>
+              </article>
+              <article className="tag-item">
+                <p>Experimental</p>
+              </article>
+              <article className="tag-item">
+                <p>jazz</p>
+              </article>
+              <article className="tag-item">
+                <p>korea town acid</p>
+              </article>
+            </Box>
+            <Box className="audio-btn-box">
+              <Button className="audio-btn play">
+                {" "}
+                <BsFillPlayFill className="audio-logo" /> Listen Now
+              </Button>
+              <Button className="audio-btn shop">
+                {" "}
+                <TbPaperBag className="audio-logo" /> Shop Now
+              </Button>
             </Box>
           </Box>
         </SwiperSlide>

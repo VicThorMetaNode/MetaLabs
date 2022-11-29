@@ -183,3 +183,188 @@
     color: aliceblue;
     font-family: var(--ft-keyword-unica);
 }
+
+ //-------------- DIV 3 AUDIO -----------
+ .audio-container {
+     width: 24rem;
+     height: 100%; 
+     background-color: var(--color-bubble-gum);
+ }
+
+ .audio-img-background-container {
+    background-image: url(../../dist/img/webp/town-acid.webp) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 45%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    // margin: 0.5rem 1rem;
+    display: flex;
+    h5 {
+        flex: 1;
+        writing-mode: vertical-rl;
+        // text-orientation: upright; 
+        font-family: var(--ft-audio-title);
+        font-size: var(--font-size-13);
+        font-weight: 400;
+        text-transform: uppercase;
+        // color: var(--color-amethyst);
+        color: rgb(255, 255, 98);
+        margin-top: 1rem;
+        margin-right: 2rem;
+        // background-color: orange;
+    }
+ }
+
+ .audio-text-container {
+    display: flex;
+    justify-content: center;
+    // text-align: center;
+    margin-top: 12rem ;
+    
+    h4 {
+        font-family: var(--ft-audio-title);
+        font-size: var(--font-size-20);
+        font-weight: 400;
+        text-transform: uppercase;
+        padding: 0rem 0.5rem;
+        letter-spacing: -0.1rem;
+        color: aliceblue;
+        white-space: nowrap;
+        word-spacing: -0.1rem;
+    }
+    h2 {
+        font-family: var(--ft-audio-title);
+        font-size: var(--font-size-30);
+        font-weight: 600;
+        text-transform: uppercase;
+        color: aliceblue;
+        
+    }
+ }
+
+ .audio-text-container-1 {
+ margin-right: 2rem;
+ margin-left: 1rem;
+ }
+
+ .audio-text-container-2 {
+    // background-color: magenta;
+    width: 10rem;
+ 
+h3 {
+    font-family: var(--ft-audio-title);
+    font-size: var(--font-size-13);
+    font-weight: 600;
+    text-transform:capitalize;
+    color: rgb(255, 255, 98);
+    // background-color: purple;
+}
+ }
+
+
+ .audio-text-box {
+  margin-top: 2.5rem;
+  padding: 0rem 2rem;
+  h2 {
+    font-family: var(--ft-audio-title);
+    font-size: var(--font-size-25);
+    font-weight: 600;
+    text-transform:capitalize;
+    color: var(--color-algopulse);
+    span {
+      text-transform: lowercase;  
+    }
+  }
+
+h5 {
+    font-family: var(--ft-audio-title);
+    font-size: var(--font-size-14);
+    font-weight: 200;
+    text-transform:lowercase;
+    color: var(--color-cadet);
+    span {
+        font-size: var(--font-size-15);
+        text-transform: uppercase; 
+    }
+}
+ }
+
+
+ .audio-tags-box {
+    
+    // display: grid;
+    // grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    // grid-template-columns: 70px;
+    // column-count: 5;
+    // column-width: 8rem;
+    // grid-gap: 0.1rem;
+    // column-gap: 2px;
+    // column-fill: balance;
+    margin: 0.5rem 2rem;
+    width: 85%;
+    height: 5rem;
+    // padding: 0rem 2rem;
+    p {
+        white-space: nowrap;
+        font-size: var(--font-size-13);
+        font-family: var(--ft-audio-tag);
+        color: var( --color-algopulse);
+        font-weight: 700;
+        text-transform: capitalize;
+        
+        span {
+            color: aliceblue;
+        }
+    }
+ }
+
+ .tag-item {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 0.1rem 0.1rem ;
+    height: 20px;
+    border-radius: var(--border-r025);
+    width: fit-content;
+    background-color: transparent;
+    float: left;
+    margin: 0.3rem 0.3rem;
+}
+
+.tag-black {
+    background-color: var(--color-algopulse);
+    
+}
+
+.audio-btn-box {
+   
+    margin: 0.5rem 2rem;
+}
+
+.audio-btn {
+    font-family: var(--ft-audio-title);
+    font-size: var(--font-size-15) !important;
+    font-weight: 200 !important;
+    text-transform:capitalize;
+    color: var(--color-algopulse);
+}
+
+.play {
+    background-color: var(--color-yellow-audio) !important;
+    margin-right: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.shop {
+    background-color: var(--color-algopulse) !important;
+    color: var(--color-yellow-audio) !important;
+    
+}
+
+.audio-logo {
+    margin-right: 0.5rem;
+}
+
