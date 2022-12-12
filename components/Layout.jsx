@@ -9,7 +9,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title className="head-title">MetaNodes labs.</title>
+        <title className="head-title">MetaNodes lab.</title>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <Navbar />
